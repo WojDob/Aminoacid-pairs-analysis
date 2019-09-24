@@ -18,4 +18,5 @@ for rec in SeqIO.parse(sys.argv[1], "fasta"):
     else:
         lastGene = gene
         longest = (l, rec)
+
 SeqIO.write(longest[1], sys.stdout, "fasta")
