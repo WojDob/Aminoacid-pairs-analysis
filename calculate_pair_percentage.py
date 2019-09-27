@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from Bio import SeqIO
+import json
 import sys
 
 combinations = ['AA', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AK', 'AL',
@@ -45,13 +46,15 @@ frequency = {
 
 def pairFrequency(comb):
     a = list(comb)
-    return frequency[a[0]]*frequency[a[1]]*2
+    return frequency[a[0]]*frequency[a[1]]*2*100
 
 
 for comb in combinations:
+
     print("Calculating {}-{}".format(comb,comb[::-1]))
-    f = open("output/{}-{}_ratio.txt".format(comb,comb[::-1]),"w+")
+    f = open("output/{}-{}_ratio.json".format(comb,comb[::-1]),"w+")
     output = list()
+
     for rec in SeqIO.parse(sys.argv[1], "fasta"):
         positions = list()
         for i in range(len(rec.seq)-1):
@@ -59,8 +62,8 @@ for comb in combinations:
                 positions.append(i)
                 positions.append(i+1)
         percentage = len(set(positions))/len(rec.seq) *100
-        output.append((rec.id,percentage))
+        output.append((rec.id,len(rec.seq),percentage,pairFrequency(comb),percentage/pairFrequency(comb)))
 
-    output.sort(key=lambda tup: tup[1], reverse = True)
-    f.write('\n'.join('{} {}'.format(x[0],x[1]) for x in output))
+    output.sort(key=lambda tup: tup[4], reverse = True)
+    json.dump(output,f, indent =1)
     f.close()
