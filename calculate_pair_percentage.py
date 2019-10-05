@@ -48,22 +48,60 @@ def pairFrequency(comb):
     a = list(comb)
     return frequency[a[0]]*frequency[a[1]]*2*100
 
+#
+# for comb in combinations:
 
-for comb in combinations:
+comb = 'WG'
 
-    print("Calculating {}-{}".format(comb,comb[::-1]))
-    f = open("output/{}-{}_ratio.json".format(comb,comb[::-1]),"w+")
-    output = list()
+print("Calculating {}-{}".format(comb,comb[::-1]))
+f = open("output/{}-{}_ratio.json".format(comb,comb[::-1]),"w+")
+output = {
+    'motif': [comb,comb[::-1]],
+    'freq_avg': pairFrequency(comb),
+    'proteins':[]
+}
 
-    for rec in SeqIO.parse(sys.argv[1], "fasta"):
-        positions = list()
-        for i in range(len(rec.seq)-1):
-            if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
-                positions.append(i)
-                positions.append(i+1)
-        percentage = len(set(positions))/len(rec.seq) *100
-        output.append((rec.id,len(rec.seq),percentage,pairFrequency(comb),percentage/pairFrequency(comb)))
+for rec in SeqIO.parse(sys.argv[1], "fasta"):
+    protein = {
+    'id': rec.id,
+    'length': len(rec.seq),
+    'freq':-1,
+    'ratio':-1
+    }
+    positions = list()
+    for i in range(len(rec.seq)-1):
+        if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
+            positions.append(i)
+            positions.append(i+1)
+    percentage = len(set(positions))/len(rec.seq) *100
+    protein['freq'] = percentage
+    protein['ratio'] = percentage / pairFrequency(comb)
+    output['proteins'].append(protein)
 
-    output.sort(key=lambda tup: tup[4], reverse = True)
-    json.dump(output,f, indent =1)
-    f.close()
+
+
+output['proteins'] = sorted(output['proteins'], key=lambda k: k['ratio'], reverse = True)
+# sorted(output['proteins'].items(), key=lambda x: x[1])
+json.dump(output,f, indent = 4)
+f.close()
+
+#
+#    'motif': ['GW', 'GW'],
+#    'freq_avg': 0.14,
+#    'proteins': [
+#       {
+#         'id': 'AT5G35660 .1',
+#         'length': 343,
+#         'freq': 11.661807580174926,
+#         'ratio': 83.29862557267803
+#       },
+#       {
+#         'id': 'AT2G15340.1',
+#         'length': 119,
+#         'freq': 10.92436974789916,
+#         'ratio': 78.03121248499399
+#       },
+#       ...
+#     ]
+#    }
+# }
