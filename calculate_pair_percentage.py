@@ -49,7 +49,6 @@ def pairFrequency(comb):
     return frequency[a[0]]*frequency[a[1]]*2*100
 
 
-
 for comb in combinations:
 
     print("Calculating {}-{}".format(comb,comb[::-1]))
