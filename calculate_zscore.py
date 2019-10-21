@@ -32,6 +32,8 @@ def pairFrequency(comb):
     a = list(comb)
     return frequency[a[0]]*frequency[a[1]]*2*100
 
+def getDataList(key):
+    return [protein[key] for protein in zScoreOutput['proteins']]
 
 comb = 'WG'
 
@@ -62,23 +64,33 @@ for rec in SeqIO.parse("C:\\Users\\wojci\\Desktop\\github\\Aminoacid-pairs-analy
             positions.append(i)
             positions.append(i+1)
     percentage = len(set(positions))/len(rec.seq) *100
-
     protein['ratio'] = percentage / pairFrequency(comb)
 
     #count instances of motif
     recCombCount = rec.seq.count(comb) + rec.seq.count(comb[::-1])
     protein['count'] = recCombCount
     countList.append(recCombCount)
-
+    #add the protein to the list
     zScoreOutput['proteins'].append(protein)
 
 zScoreOutput["averageOccurence"] = np.mean(countList)
 zScoreOutput["standardDeviation"] = np.std(countList)
+
 #calculate zscore of each protein
 for rec in zScoreOutput['proteins']:
     rec['zscore'] =(rec['count'] - zScoreOutput['averageOccurence'])/zScoreOutput["standardDeviation"]
 
 
-#print(json.dumps(zScoreOutput,indent=4))
-plt.hist([protein['zscore'] for protein in zScoreOutput['proteins']])
+
+plt.hist([protein['zscore'] for protein in zScoreOutput['proteins']],bins = 50)
+plt.show()
+
+plt.scatter([protein['ratio'] for protein in zScoreOutput['proteins']],[protein['length'] for protein in zScoreOutput['proteins']],alpha=0.1)
+plt.xlabel('Ratio')
+plt.ylabel('Length of sequence')
+plt.show()
+
+plt.scatter(getDataList('ratio'),getDataList('zscore'),alpha=0.1)
+plt.xlabel('Ratio')
+plt.ylabel('Z-score')
 plt.show()
