@@ -13,7 +13,7 @@ def pairFrequency(comb):
 def getDataList(key):
     return [protein[key] for protein in zScoreOutput['proteins']]
 
-combinations = ['WG']
+combinations = ['WG','AA','WW']
 
 
 
@@ -66,6 +66,7 @@ for comb in combinations:
     ratioList = getDataList('ratio')
     lengthList = getDataList('length')
 
+    #make zscore histogram
     plt.hist(zScoresList,bins = 50)
     plt.title(zScoreOutput['motif'])
     figure = plt.gcf()
@@ -73,7 +74,7 @@ for comb in combinations:
     plt.savefig('./zscore_plots/zscore_histograms/{}-{}_zs_hist.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
     plt.clf()
 
-
+    #make ratio to length scatterplot
     plt.scatter(ratioList,lengthList,alpha=0.1)
     plt.xlabel('Ratio')
     plt.ylabel('Length of sequence')
@@ -83,6 +84,7 @@ for comb in combinations:
     plt.savefig('./zscore_plots/ratio-length_scatterplots/{}-{}_r-l_scttr.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
     plt.clf()
 
+    #make ratio to zscore scatterplot
     plt.scatter(ratioList,zScoresList,alpha=0.1)
     plt.xlabel('Ratio')
     plt.ylabel('Z-score')
