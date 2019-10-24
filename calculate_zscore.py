@@ -13,11 +13,7 @@ def pairFrequency(comb):
 def getDataList(key):
     return [protein[key] for protein in zScoreOutput['proteins']]
 
-combinations = ['WG','AA','WW']
-
-
-
-for comb in combinations:
+for comb in utils.combinations:
 
     zScoreOutput = {
         'motif': [comb,comb[::-1]],
