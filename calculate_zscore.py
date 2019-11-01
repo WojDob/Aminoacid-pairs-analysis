@@ -19,8 +19,8 @@ for comb in utils.combinations:
 
     zScoreOutput = {
         'motif': [comb,comb[::-1]],
-        'averageOccurence' : -1,
-        'standardDeviation' : -1,
+        'averageOccurence' :,
+        'standardDeviation' :,
         'proteins':[]
     }
     print("Calculating {}".format(zScoreOutput['motif']))
@@ -31,19 +31,20 @@ for comb in utils.combinations:
         protein = {
             'id':rec.id,
             'length': len(rec.seq),
-            'count':-1,
-            'ratio':-1,
-            'zscore':-1,
+            'count':,
+            'ratio':,
+            'zscore':,
         }
 
-        #calculate ratio of expected occurence and actual
-        # positions = list()
-        # for i in range(len(rec.seq)-1):
-        #     if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
-        #         positions.append(i)
-        #         positions.append(i+1)
-        # percentage = len(set(positions))/len(rec.seq) *100
-        # protein['ratio'] = percentage / pairFrequency(comb)
+        #calculate ratio of expected occurence and actual percentage of
+        #aminoacids included in motif
+        positions = list()
+        for i in range(len(rec.seq)-1):
+            if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
+                positions.append(i)
+                positions.append(i+1)
+        percentage = len(set(positions))/len(rec.seq) *100
+        protein['ratio'] = percentage / pairFrequency(comb)
 
         #count instances of motif
         recCombCount = rec.seq.count(comb) + rec.seq.count(comb[::-1])
@@ -60,12 +61,40 @@ for comb in utils.combinations:
     for rec in zScoreOutput['proteins']:
         rec['zscore'] =(rec['count'] - zScoreOutput['averageOccurence'])/zScoreOutput["standardDeviation"]
 
-
+    
     zScoresList = getDataList('zscore')
-    # ratioList = getDataList('ratio')
+    ratioList = getDataList('ratio')
     lengthList = getDataList('length')
 
+    #make zscore histogram
+    plt.hist(zScoresList,bins = 50)
+    plt.title(zScoreOutput['motif'])
+    figure = plt.gcf()
+    figure.set_size_inches(15, 10)
+    plt.savefig('./zscore_plots/zscore_histograms/{}-{}_zs_hist.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
+    plt.clf()
 
+    #make ratio to length scatterplot
+    plt.scatter(ratioList,lengthList,alpha=0.1)
+    plt.xlabel('Ratio')
+    plt.ylabel('Length of sequence')
+    plt.title(zScoreOutput['motif'])
+    figure = plt.gcf()
+    figure.set_size_inches(15, 10)
+    plt.savefig('./zscore_plots/ratio-length_scatterplots/{}-{}_r-l_scttr.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
+    plt.clf()
+
+    #make ratio to zscore scatterplot
+    plt.scatter(ratioList,zScoresList,alpha=0.1)
+    plt.xlabel('Ratio')
+    plt.ylabel('Z-score')
+    plt.title(zScoreOutput['motif'])
+    figure = plt.gcf()
+    figure.set_size_inches(15, 10)
+    plt.savefig('./zscore_plots/ratio-zscore_scatterplots/{}-{}_r-zs_scttr.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
+    plt.clf()
+
+    #make zscore to length scatterplot
     plt.scatter(zScoresList, lengthList,alpha=0.1)
     plt.xlabel('Z-score')
     plt.ylabel('Length of sequence')
@@ -74,33 +103,3 @@ for comb in utils.combinations:
     figure.set_size_inches(15, 10)
     plt.savefig('./zscore_plots/zscore-length_scatterplots/{}-{}_z-l_scttr.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
     plt.clf()
-
-
-    #
-    # #make zscore histogram
-    # plt.hist(zScoresList,bins = 50)
-    # plt.title(zScoreOutput['motif'])
-    # figure = plt.gcf()
-    # figure.set_size_inches(15, 10)
-    # plt.savefig('./zscore_plots/zscore_histograms/{}-{}_zs_hist.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
-    # plt.clf()
-    #
-    # #make ratio to length scatterplot
-    # plt.scatter(ratioList,lengthList,alpha=0.1)
-    # plt.xlabel('Ratio')
-    # plt.ylabel('Length of sequence')
-    # plt.title(zScoreOutput['motif'])
-    # figure = plt.gcf()
-    # figure.set_size_inches(15, 10)
-    # plt.savefig('./zscore_plots/ratio-length_scatterplots/{}-{}_r-l_scttr.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
-    # plt.clf()
-    #
-    # #make ratio to zscore scatterplot
-    # plt.scatter(ratioList,zScoresList,alpha=0.1)
-    # plt.xlabel('Ratio')
-    # plt.ylabel('Z-score')
-    # plt.title(zScoreOutput['motif'])
-    # figure = plt.gcf()
-    # figure.set_size_inches(15, 10)
-    # plt.savefig('./zscore_plots/ratio-zscore_scatterplots/{}-{}_r-zs_scttr.png'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),dpi = 100)
-    # plt.clf()
