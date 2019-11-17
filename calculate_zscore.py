@@ -76,9 +76,14 @@ for comb in combinations:
         if len(bestThirty)==30:
             break
 
+    result = {
+        "averageOccurence" : zScoreOutput["averageOccurence"],
+        "standardDeviation" : zScoreOutput["standardDeviation"],
+        "proteins" : bestThirty
+    }
     #save best thirty to file
     with open('best_zscores/{}-{}_bz.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
-        json.dump(bestThirty, f ,indent = 4)
+        json.dump(result, f ,indent = 4)
 
 
     # zScoresList = getDataList('zscore')
