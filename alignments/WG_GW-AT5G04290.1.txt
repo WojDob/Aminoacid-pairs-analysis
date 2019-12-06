@@ -1,0 +1,542 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.450)
+
+
+AT5G04290.1     MDRKG-----KGKQVAGSDS-----------YSGG--QKRKNS------VEFRDEGLRIK
+Bra009470.1-P   MDRKG-----KGKQIAGAGS------------SSG--KKRKGG----GGVEFRDEGLRIN
+KRH35991        MTNKGKG---KGKEVAGKGS------------AG----KRKA--------VFYDDKTGVG
+KRG90810        -------------------------------------------------------MILSG
+KRG90770        MTNKGKG---KGKEVAGKGS------------AG----KRKG--------VFQDDKTGSG
+BGIOSGA020147-P MAVKG-----KGKAVASASA------------SGGGVKRRKGPGDAAGPSSSSSAAAEAA
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        MTNKGKAPAVKGKAPAGKGS------------SG----KRKN--------NFDDDKTG--
+Pp3c16_360V3.2  MAKHYDDD--EAEEVDEEEAELEEVEEEEEEEEGEDLEEEEEE-------EEEDEARG--
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 MR----------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     -KRKNPEVLQFFEESAEVGYYGGSSDED--------------DDGLGFLN-DME-----D
+Bra009470.1-P   SKRKKPGVLQFFEESAEVGYYGGSSDEE--------------CDMDDLFN-DME-----D
+KRH35991        RKRNKPGVLQFFDDAA---------DVE--------------ESDFSDFS-DDDSDFDFS
+KRG90810        CLR---------------------------------------------------------
+KRG90770        CKRNNRSVLQFFEDAA---------DVE--------------ESDFSDFSDDDDSDFDFS
+BGIOSGA020147-P KRRRRSGVLQFFDDAAFVGDDEEDEDEE--------------EEE-EMFA-SDG-----D
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        -KRKNRGVVQFFEDEA------ADVDSD--------------DSEFSDFS-DES-----Y
+Pp3c16_360V3.2  -RKRKYKGSQFIDDVAEEDDDEDEEDEAPRKRRQHRRGSEFIDDTAAVAS-DEEE----E
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 -----MSLCHKFASEVKFGY----------------------------------------
+VIT_13s0019g049 --------------------------------------------------------VDFL
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     EPEVEE-SSKAGKGEKGK--SSFVFP---------KEEDLNEEEFDRIMEERYKPGSGFL
+Bra009470.1-P   EPEVET-SGKDDKGGKGKGSSSFVFP---------KEEEMNEDDYDRMMEERYKPGSGFV
+KRH35991        DDELNAGPRRMDMPDNGQSSLPRVVP---------KEEMVDEEEWDRILEERYKDPSRFI
+KRG90810        ------------------------------------------------------------
+KRG90770        DDELNAAPRRMDMPDKGQSSLPRVVP---------KEEMLDEEEWDRILEERYKDPSRFI
+BGIOSGA020147-P DDGFFTEGKAENVNLKRT-ERSHPLPF----LGIVKEEELSGDELEEFIKDRYSSRVKHT
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        EDEFETLSTTRNESAKGSSSVPR-VP---------KQELVDEEEFDRLMEERVN--SRFF
+Pp3c16_360V3.2  EEEEEEDFIERGDISPGAEDVRR--PHHRAAIRDDAQEDV--EGLERYIQQRY-GRQEYE
+VIT_14s0006g021 -----------------------------------------------MVEECYKD-----
+VIT_19s0093g001 ----------------GA--------------------------------------SNAL
+VIT_13s0019g049 EDGFNTGLKVKNEP--GKAHNLPFFP---------KEEELSEEELEKMLEERYKDGSKFV
+VIT_00s0131g004 -----------------------------------------------MLDERYKDGSKFV
+                                                                            
+
+AT5G04290.1     RYAD--DD--IKDAIEMDALAPT--SKD--PPIWKVKCAIGRERRSVFCLMHKFVELRKI
+Bra009470.1-P   RYAA--DD--VKSSIEMDALVPT--AHD--PPIWKIKCAIGREKHSVFCLMHKFVELRKI
+KRH35991        RFA---DEFGDDKGMDPSSIHEG--VDELMPYIWKVKCTVGRERLSALCLMQKFADLDSL
+KRG90810        ------------------------------------------------------------
+KRG90770        RFS---DEFGDDKGMDPSSIHEG--VDELTPSIWKVKCTVGRERLSALCLMQKFADLYSL
+BGIOSGA020147-P P-------FDGSTNVQDDEFTEDGLLKE--PVIWRIKCMVGRERQIAFCLMQKYVDLQKF
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        RFAEDGDEFEDKPMEDNSSLHHA--LKESIPTIWRVKCTVGRERLSAICLMQKFVHLKGL
+Pp3c16_360V3.2  TY----DE-AETTEVEQQALLPS--VKD--PKLWMVKCNLGHEREAAICLMQKYIDQEQI
+VIT_14s0006g021 -----------------------------------VKCMVGRERLSAFCLMNKYVDLQSL
+VIT_19s0093g001 VASTRGHCFDHSTSLLSNSLIPS--IKD--PTIWKVKCMVGRERLSAFCLMNNYVDLQSL
+VIT_13s0019g049 TYAE--DDYETKRSVQRNSLIPS--IKD--PTIWKVKCMVGRERLSAFCLMQKYVDLQSL
+VIT_00s0131g004 TYAE--DDYETKRSVQRNSFIPS--IKD--PTIWKVKCMVGRERLSAFYLMQKYVDLQSL
+                                                                            
+
+AT5G04290.1     GTKLEIISVFSVDHVKGFIFIEADKEHDVLEACKSLVGIYATRMVLLPKAETPNLLTVQK
+Bra009470.1-P   GTKLKILSVFFVEHVKGFIFIEADKEQDVLEACMSLNGIYATRMMLLPKSEAPHLLTVQR
+KRH35991        GTKLKIKSAFAVDHMKGFVYIEAEKQYDINEACQGIPGIYVTRVAPVPNSEVYHLFSVRS
+KRG90810        -VQLRVNKALLSTFIEGLSFYMME------------------------------------
+KRG90770        GTKLKIKSAFSVDHMKGFVYIEAEKQYDINEACQGIPGIYVTRVAPVPNSEVYNLFSVRS
+BGIOSGA020147-P GTKVPIISAFALDHVRGFVFVEAEKACDVTEACKGFCSVYISRINSVPVAEVPSLLSSRA
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        DTKLQLISAFAVDHVKGFIYVEAERQNDINQACYGITGIYATRVQPVPRNEVFHLFSVKI
+Pp3c16_360V3.2  NQPLLIKSAIALDHLKGYLYIESEKEAYVRQACRGMRMIYSQKVTLVPIKEMTDVLSVEK
+VIT_14s0006g021 GTKLQIIYAFSVDHVKGFIYIEADKQCDINEACKGLCIIYTSRVAPVLKNEVTHLLSVRS
+VIT_19s0093g001 GTKLQIISVFLVDHVKGCIYIEADKQCDINEACKGLCTIYTSRVAPVPKNEVTKFIKYDK
+VIT_13s0019g049 GTKLQIISAFSVEHVKGFIYIEADKQCDINEACKGLCSIYTSRVAPVPKNEVTHLLSVRS
+VIT_00s0131g004 GTKLQIISVFSVEHVKGFIYIEADKQCDINESCKGLCTIYTSRVAPVTKNEVTHLLSIRS
+                                                                            
+
+AT5G04290.1     KTKK-VSEGTWARVK------NGKYKGDLAQIVAVSDTRNKALIKLIPRIDIQALTQKYG
+Bra009470.1-P   KTKT-FSEGTWARIK------SGKYKGDLAQVVAVSDTRGKALIKLIPRIDIAALTQKYG
+KRH35991        RTPE-ISEGMWARIK------GGNYKGDLAQVVSVNNTRKKVTVKLIPRIDLQALAAKFG
+KRG90810        -------------------------------------MRKK-------------------
+KRG90770        RTPE-ISEGMWARIK------GGNYKGDLAQVVSVNNTRKKVTVKLIPRIDLQALAAKFG
+BGIOSGA020147-P KPFA-ISPGTWVRMK------TGIYKGDLAQVVSADEGRKRVMIKLIPRVDLRAISKKIG
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        KKPE-ISEGMWGRVK------GGNYKGDLAQVVAVNNTHKKVTVKLVPRIDLFALAAKFG
+Pp3c16_360V3.2  KAVE-IDQDTWVRVK------IGIYKGDLAKVVDVDHVRQRAQIKLIPRVDLQALAAKLE
+VIT_14s0006g021 KCIE-SSEGTWARMK------NGKYKGDLAQ-----------------------------
+VIT_19s0093g001 KIYTSLSINILIKLEFPCPQCGAEYAGFLCNPNTVH------------------------
+VIT_13s0019g049 KCNE-ISEGTWARMK------NGKYKGDLAQIVVVSDAQKKATVKLIPRIDLQAMAEKFG
+VIT_00s0131g004 KCNE-SSEGTWAPMK------NGKYKGDLAQIVVVSDA----------------------
+                                                                            
+
+AT5G04290.1     GGVTVQKGQTPAPRLISSSELEEFRPLIQVRRDRDTGITFEHLDSLMLKDGYLYKKVSLD
+Bra009470.1-P   GGVAVQKGLNPAPRLISSSELEEFRPIIQVRRDRDTGMTFEHLDSLMLKDGFLYKKVSLD
+KRH35991        GGYSRQKMAVPAPRLISSSELEEFRPLIQIKRDRDTGKVFEVLDGLMLKDGYVYKKVSLD
+KRG90810        ------------------------------------------------------------
+KRG90770        GGYSRQKMAVPAPRLISSSELEEFRPLIQIKRDRDTGKVFEVLDGLMLKDGYVYKKISPD
+BGIOSGA020147-P GAIPLKEAAIPAPRLISSQELEFFGSHIERKHDRQTNDFYEVLDGLMFKDGFLYKRVALS
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        GGCR-QKAAVPAPRLISSTELEEFRPLIQIKHDRETGKVFQVLDGMLLKDGFLYKKVSPD
+Pp3c16_360V3.2  GRDDMKKRPRPAPRFISIQDVKDLRIPVERKRDGSTGELFDQFGGMMFKDGYLYKYVSLK
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ----------------------------------------------------------LQ
+VIT_13s0019g049 GGVSAKKRNNPAPRLISSSELEEFRPLIQYRRDRDTGKLFEILDGQMLKDGYLYKKVSID
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     SISSWGVIPTKDELLKFT--PVD-------------------------------------
+Bra009470.1-P   SLTSCGVKPSKEEILKFA--PLE-------------------------------------
+KRH35991        SLSLWGVVPTEEELLKFG--PCE-------------------------------------
+KRG90810        ------------------------------------------------------------
+KRG90770        SLSLWGVVPTEDELLKFG--PSE-------------------------------------
+BGIOSGA020147-P SLIYWGIQPTETELLKFSSTPTI-------------------------------------
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        SLSFWGVVPTEEELLKFG--SSE-------------------------------------
+Pp3c16_360V3.2  TIDAKGIEPSLDELQRFQK-PGEDGMDALGLPPSAIKNRGQFMKGDAVVVIEGDLRNLMG
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 CHACGGMMPSRNDI----------------------------------------------
+VIT_13s0019g049 SLSCWGVTPSEEELHKFT--PSS-------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     --RKETGDVEWISEIYGEERKKKILPTCREGGKGEGSGGGKGEGSG------GGKGEGSR
+Bra009470.1-P   --EKETGDVEWISEIYGEEKKKKSIPA--------GKGVEKGEGSG------GGKGEGSG
+KRH35991        --NNESNDLEWLSQLYGDKKKKRVIRP--------DKG---------------------G
+KRG90810        ------------------------------------------------------------
+KRG90770        --NNESNDLEWLSQLYGDKKKKRVIRP--------EKG---------------------G
+BGIOSGA020147-P --TSSTDDLDWVSSMYGPKKRNVPKEPD------MEPSSSKASSSK------GKYSK--A
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        --NNDSNDMEWLSNIYGDTKKKRVTIA--------DK----------------------G
+Pp3c16_360V3.2  VVEKVDDDNVYIVPKYKDLKETLVFK---------EKQLQKFFKTGDHVKVIAGNHEGAT
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 --NEESVDLEWLSQLYGERKQKRTTKS--------DK----------------------G
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     G-----------------------------GKGEGSSDFKSESSYELYNLVCFSRKDFGL
+Bra009470.1-P   G-----------------------------GKGEGSSESKSESSHELYNLVCFSRKDFGL
+KRH35991        G-----------------------------GKGESSSGSGVGNGFELYDLVCFGKKDFGV
+KRG90810        ------------------------------------------------------------
+KRG90770        G-----------------------------GKGESSSGSGVGNGFELYDLVCFGKKDFGV
+BGIOSGA020147-P S-----------------------------SKASTSTEDYEDKGFNLHDLVLFGRRDFGV
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        D-----------------------------GKGEGSSASGAGNDFELYALVRFRKKDFGV
+Pp3c16_360V3.2  GMIVKVQNNVITILSDSTREDLRVFAHNIVESSEVTSGITKLGDYELHDLVALDQSTVGL
+VIT_14s0006g021 ---------------------------------------------ELFSQIV--------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 G-----------------------------EKGEGSSGSSMVNSFELHDLVCFGRKDFGI
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     IVGVDDKGDGYKVLKEGIDGPVVVTVGKKEMQNGPFDSKFTALDLNKKQISVNDVVKISK
+Bra009470.1-P   IVGVDDKGDGYKVLKEGSDGPVVVSVGKKEMQE-PFDSKFSALDLNNKQISIGDVVKIAK
+KRH35991        IVGM-DKDDIYKILKEGSDGPAAVTIERHEIKSGLFDLKLTALDQQSKTILVNDTVRVLE
+KRG90810        ---M-D------------------------------------------------------
+KRG90770        IVGM-DKDDIYKILKEGSDGPDAVTVDRHEIKSGLFDLKLTALDQHSKTILVNDTVRVLE
+BGIOSGA020147-P VIAF-EK-DGLRILKGGPEGS-AVTVRKQDIKDVCADKMLTAVDHKKKIICINDTVNVLE
+Os05t0506200-01 --------------------------------------MLTAVDHKKKIICINDTVNVLE
+KEH44273        IIST-DKDGTYKILKESSEGPVAVTVQRNEIKSALCDLKLSAQDLHRKTIVVNDNVKVLD
+Pp3c16_360V3.2  IVRV-EK-DAFQILKGNPERTELLMVKPREIRRKVFDRKVCAQDRDMNVVSMKDIVRVLD
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 VIGM-EKDDNYKILKDGPEGPVVQTVVLHELKNPLFENKFTALDQHMKTISINDTLKVLE
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     GPSE--------------------------------------------------------
+Bra009470.1-P   GPSE--------------------------------------------------------
+KRH35991        GPSK--------------------------------------------------------
+KRG90810        ------------------------------------------------------------
+KRG90770        GPTK--------------------------------------------------------
+BGIOSGA020147-P GPFQRDGAMGKQPGMALENLHRSKRDVRRGLRERWGDGMEIEVSRVPKSSTVTVLRTGHD
+Os05t0506200-01 GPFQ--------------------------------------------------------
+KEH44273        GPSQ--------------------------------------------------------
+Pp3c16_360V3.2  GHCK--------------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 GPLK--------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     --GKQGVVRQVYRGIIFLYDESEEENGGYFCCKSQSCEKVKLFTEESN--EKTGGFDGTA
+Bra009470.1-P   --GKQGVVRQVYRGIIFLYAEGEEENGGYLCCKSQSCEKVKLFTEESN--DKTGGFDASA
+KRH35991        --GKQGIVKHIYRGIVFLYDGNEEENGGYLTCKSNMCEKVKVAVGDCS--GKDSEPAPLV
+KRG90810        -----------------------------LTCKTNMCEKVKLAVGDCS--GKDSEPGPLV
+KRG90770        --GKQGIVKHIYRGIVFLYDGNEEENGGYLTCKSNKCEKVKLAVGDCS--GKDSEPGPLV
+BGIOSGA020147-P GEGKQGVVKHLYMGILFIHNESESENSGFFCAQCSSCENVK----------KRKELASFT
+Os05t0506200-01 --GKQGVVKHLYMGILFIHNESESENSGFFCAQCSSCENVK----------KRKELASFT
+KEH44273        --GKQGIVRHIYQGIVFLYDGNEEENGGYVTAKAIMCEKVKLAVSDFSAIGKDSEPGPLV
+Pp3c16_360V3.2  --GKQGPVEHIHRGLLFIHDRHHLDNGGYVCVKARQCSALGGSRNGGD--RRNGGPVSSL
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 -----GVPQHC------------------LGCDRAFCGAY--------------------
+VIT_13s0019g049 --GRQGLVKKIYRGVIFLYDENETENNGYFCSKSQMCEKIKLYGDACN--EKGGESGPSG
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     F-----EDFVSSPK--SPLSPEKEW--QPRER---------YNSSNQGDIGSTYSIGQKL
+Bra009470.1-P   F-----GDSASSPK--SPLSPEKEWQQQPKEK---------YINSNQGDKGSMYSIGQKL
+KRH35991        F-----EDQPSSPR--SPLSPKKPW--QAREN---------NREFNRGDNNNMFSIGQTL
+KRG90810        F-----EDQPSSPR--SPLSPKKPW--QAREN---------NREFNRGDNNNMFTIGQTL
+KRG90770        F-----EDQPSSPR--SPLSPKKPW--QAREN---------NREFNRGDNNNMFTIGQTL
+BGIOSGA020147-P F-----GNSDNNPI--PMFSYEQN---EQRDN---------ERPY-RSTREQLFSIGEML
+Os05t0506200-01 F-----GNSDDNPI--PMFSYEQN---EQRDN---------ERPY-RSTREQLFSIGEML
+KEH44273        F-----DDQPSSPR--SPLSPKKPW--QAKEK-----------DFNRGDSDSLFAIGQTL
+Pp3c16_360V3.2  SSLSLNGNVLQSPRRESPYGGHGGG--GGRGGAHGGGGFGGGRAGGRGRREDSI-VGRSV
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------WHTQ--------------------------------
+VIT_13s0019g049 F-----EDFTSSPQ--SPLSPKKPW--QAREN---------NRDFNRGDKDGMFSVGQTL
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     RIRVGPLKGYLCRVIALRYSDVTVKLDSQHKIFTVKSEHLAEVRDRNTVL----STSGDA
+Bra009470.1-P   RIRVGPLKGYLCRVIALRYSDITVKLDSQHKIFTVKSEHLAEVRDRNTVP----SMSGDA
+KRH35991        RIRIGPLKGYICRVIALRRADVTVKLDSQQKVLTVKCEHLSEVQGKSTAI----SSSGDP
+KRG90810        RIRIGPLKGYICRVIALRRADVTVKLDSQQKVLTVKCEHLSEVQGKSTAI----SSSGDP
+KRG90770        RIRIGPLKGYICRVIALRRADVTVKLDSQQKVLTVKCEHLSEVQGKSTAI----SSSGDP
+BGIOSGA020147-P RIRKGPMKGYLCRVVRIFRNDVTVKLDSLLKIVTVQAEFLSVPAKRG-------------
+Os05t0506200-01 RIRKGPMKGYLCRVVRIFRNDVTVKLDSLLKIVTVQAEFLSVPAKRG-------------
+KEH44273        RIRIGPLKGYLCRVTGIRRSDVTVKLDSQQKFLTVKSEHLSVVQGKSTAV----SASGDP
+Pp3c16_360V3.2  KIRLGPFKGYRGRVVDATDSTVRIELESQMKVVTVRREQLSDPGESQTVFFNNYRESPRY
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 --RFG-------------------GSDSHFVVLLVCSHH---------------------
+VIT_13s0019g049 RIRVGPLKGYLCRVLAIRYSDVTVKLDSQHKVLTVKCEHLSEVRGKGFSV----SISDNP
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     GTGSFQPF--------------------------GMLGTESSTGDWAIGAG-TSSEGGNW
+Bra009470.1-P   GMGSFQQF--------------------------DMLGTEGNNGDWAKGAG-TS------
+KRH35991        DSSSSKPF--------------------------DLLGTEGSSGGWLNGVG-TSTGGGGW
+KRG90810        DSSSSKPF--------------------------DMLGTEGSSGGWLNGVG-TSTGAGGW
+KRG90770        DSSSSKPF--------------------------DMLGTEGSSGGWLNGVG-TSTGAGGW
+BGIOSGA020147-P DNSSGAPS--------------------------GPFGSEADKPSWDNGL--PSFGSDSW
+Os05t0506200-01 DNSSGAPS--------------------------GPFGSEADKPSWDNGL--PSFGSDSW
+KEH44273        DSSSLNPF--------------------------DLLGAEGSSGGWLNNSAGTSTGSGGW
+Pp3c16_360V3.2  GAGSETPMHPSRTPMHHPAYMTPMRDPNFATPSHDGMRTPMRDRAWNPHTPMTPHRGNNW
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ESSSLKSF--------------------------GLLGTQDSARDWVDGAG-TSAESDRW
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     NIGGPSTDSHESLNIERNMVQLCREKNPWGGSKPTSDVSPTVADDNTSAWANAAAENKPA
+Bra009470.1-P   -------------------------------------------EDNTSTWGSTAAENKPD
+KRH35991        NAGRASSTGGG-------------------------------------------------
+KRG90810        NAGGASSTGGS-------------------------------------------------
+KRG90770        NAGGASSTGGS-----------------------------------------GWNAGGAS
+BGIOSGA020147-P QPFSSAAL--------------------------------PVQNADGESEVDPWCKKTSS
+Os05t0506200-01 QPFSSAAL--------------------------------PVQNADGESEVDPWCKKTSS
+KEH44273        NAGETSGE----------------------------------------------------
+Pp3c16_360V3.2  DDANPST-----------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 NTGETSAE----------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     SASDQPGGWNPWGKTPASEAGTVSGWGDTSASNVEASSWEKQ-GASTSNVADLGSWGTHG
+Bra009470.1-P   SAGDQSGGWNAWGKPPAPEASTVGAWGDASTPKVEA-SWGKQ-GASTSNVEDSGSWGKHG
+KRH35991        -------GWNAGGA----SSNGGGGWNAGGSSSTGGGGWNAG-GGSSTR---GGGWNAGG
+KRG90810        -------GWNAGGA----SATGGGGWNVGGASSTGGGGWNAG-GASSTG---GGGWNAGG
+KRG90770        STGG--GGWNAGGA----SSTGGGGWNVGGASSTGGGGWNAG-GASSTG---GGGWNAGG
+BGIOSGA020147-P SAND---S-DPWGTKTKSASVDVWNNSTTQVENSSDNAWDKQPGGSGPNIG-GSSWDRPA
+Os05t0506200-01 SAND---S-DPWGTKTKSASVDVWNNSTTQVENSSDNAWDKQPGGSGPNIG-GSSWDRPA
+KEH44273        --------RSAWGN----------------------------------------------
+Pp3c16_360V3.2  --------WDTHTSTPQYEPGTPGGRSF--EAPTPGNGWSAQ--------TPGASFSEAG
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     GSSGGNKQDE--DSVWGKLCEAS----ESSQK-----KEESSWGK------KGGSD----
+Bra009470.1-P   GSSDGNKQND--DSVWGKLVE------ESSQK-----KEESSWGK------KTGSDSDLG
+KRH35991        ASSERDAESN--HSAPSLLNTESISNPFSSKG-----AEDSAWET------KSNSN----
+KRG90810        PSSKRDAGSN--HSAPSLLNTESTSNPFSSKG-----AEDSAWET------KSNSN----
+KRG90770        PSSKRDAGSN--HSAPSLLNTESTSNPFSSKG-----AEDSAWET------KSNSN----
+BGIOSGA020147-P TDKESEKSDNWGEACKETEKTGSDTDPWGSKVKEIDLKETDSWGKASMQPEKKLED----
+Os05t0506200-01 TDKESEKSDNWGEACKETEKTGSDTDPWGSKVKEIDLKETDSWGKASMQPEKKLED----
+KEH44273        ------------PSAPSSV-PGSTSDPLSSEGN----AEDNAWGT------KSTST----
+Pp3c16_360V3.2  TPTEPAQS----YAAPSPYLPGTPGGPPMTPG-----VPSYLPGT------PGGQP----
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     ---GESSWGNKDGNSSASKKDGVSWGQQDKGSDESKGGSAW----SNQCGDFGSGKKKDG
+Bra009470.1-P   KGNGESTWGNKDGNSSASNKEGVSWGQHDKGSDGDQGGSSW-------------GKKND-
+KRH35991        ---QNSSWG------VAVEKTGIA-------SNPDQSD-GW-------------G-----
+KRG90810        ---KTSSWG------AAVDKTGIA-------SNADQSG-GW-------------G-----
+KRG90770        ---KTSSWG------AAVDKTGIA-------SDADQSG-GW-------------G-----
+BGIOSGA020147-P ---DSQGWG------QPVGKSN-----QDQEKGADKCG-AW--------DTVIAG-----
+Os05t0506200-01 ---DSQGWG------QPVGKSN-----QDQEKGADKCG-AW--------DTVIAG-----
+KEH44273        ---ATPAWG------AAVN-TGTT-------SETDQSG-GW-------------GTKSTS
+Pp3c16_360V3.2  ---MTPGTGGLDPTSPAIGSGGAF----------DNEG-GWVMPDIVVT-----------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 -------------------------------RLNDQAC---------LCHLLLAGMKRV-
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     SSGWNKSAEDSNANSKGVPDWGQPNDGSSWGKKGDGAASWGKKDDGG-SWGKK-DDGNKD
+Bra009470.1-P   ------SVKD--------------DGGSSWGKKDDGGSTWGKKDDGGSSWGKKVDDVIKD
+KRH35991        ------------------------S-GGSWGQAEHKTGSMGDGNQNS-NWNDKPNNLNGN
+KRG90810        ------------------------SGGGSWGQAEHKTGSVGDGNQN--------------
+KRG90770        ------------------------SGGGSWGQAEHKTGSVGDGNQN--------------
+BGIOSGA020147-P ----------------------------------SSSSVPGRGDDD--SWIKT-DTLPVA
+Os05t0506200-01 ----------------------------------SSSSVPGRGDDD--SWIKT-DTLPVA
+KEH44273        ------------------------TATPAWGAAVN-TGTTSEPDQSG-------------
+Pp3c16_360V3.2  ------------------------------------IRKLGEETQTA-------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     -----DGGSSWG-KKDDGQKDDGGSSWEKKF-----DGGSSWGKK-----DDGGSSWGK-
+Bra009470.1-P   -----DGGSSWD-KKVEGNKDDGGSSWGKKVDCNKDDGGSSWGKKVEGNKDDGGSSWGKK
+KRH35991        QSSGRDSKSNWNTTKASEGESSGWNSVKKSNQTSSIGWGGGNGFK---------------
+KRG90810        --------SNWNTTKASEGESSGWNSIQKSNETSSAGWGGGNGFKS---GSD-------E
+KRG90770        --------SNWNTTKASEGESSGWNSIQKSNETSSAGWGGGNGFKS---GSD-------E
+BGIOSGA020147-P Q----D--DAWGNSKDCSDGAAGWNETRTSKQSHSTGG------------------WDAA
+Os05t0506200-01 Q----D--DAWGNSKDCSDGAAGWNETRTSKQSHSTGG------------------WDAA
+KEH44273        ---------SWG-TKSTSTPTPAWGAAANAGTTSEPDQSGSWGTKS---TSTPTPAWGAA
+Pp3c16_360V3.2  ------------------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     -------KDDGGSLWGKKDDGGSSWGK-------------EDDGG-----SLWGKKDDGE
+Bra009470.1-P   VDCN---KDDGGSSWGKKDDGGPSWNKKDDGN--------KDDGG-----SAWGKKVESG
+KRH35991        --------------SGVKEVGNPDGTSDIDAN--------QDVG--------WKSQP---
+KRG90810        GNLNSTWSGWKSGSSGVKQAGNPAGTSDIDAN--------QDAG--------WKNKP---
+KRG90770        GNLNSTWSGWKSGSSGVKQAGNTAGTSDIDAN--------QDAG--------WKNKP---
+BGIOSGA020147-P A-------------------ANLNESSDVDAH--------KDS---------WGKAKDTT
+Os05t0506200-01 A-------------------ANLNESSDVDAH--------KDS---------WGKAKDTT
+KEH44273        ANTETTSEPDKSGGWGTKSTSTPTPAWGAAVNTITTSEPVQSGG--------WGTKSTST
+Pp3c16_360V3.2  --------------------------------VIREVMPVRVIGFLTFFAYIW-------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     SS--W-------GKKDDGE-SSWGKKD------------------DGGSSWGKKDEGGY-
+Bra009470.1-P   SS--W-------RNKDGG--SSWGNK-------------------DGGSSWAKKDDGGY-
+KRH35991        -------------TKDGSGSSGWGTK-------------------NN---WNAPVSSSHD
+KRG90810        -------------NKDGSESSGWETK-------------------NN---WNAPVSSSND
+KRG90770        -------------NKDGSESSGWETK-------------------NN---WNAPVSSSND
+BGIOSGA020147-P AN----------AEEKNSESGNWNKAGPLDKVCGSDWGSPKFSSGDGPSSWNKGDKIGGD
+Os05t0506200-01 AN----------AEEKNNESGNWNKAGPLDKVCGSDWGSPKFSSGDGPSSWNKGDKIGGD
+KEH44273        PTPAWGAAVNIETTSEPDQSGGWGTKS----------------TSTPTPAWGAAVNTGT-
+Pp3c16_360V3.2  --------------------SPWDIA----------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     -SEQTFDRGGRGFGGRRGGGRRGGRDQFGRGSS---FGNSEDPAPWSKP--SGGSSW--G
+Bra009470.1-P   -SEQTFDRGGRGFGGRRGGGRRGGRDQFGRGRS---FGHSEDQAPWSKPGGGGGSSW--G
+KRH35991        KQGKGNDQGGWNAGKASGG---------------------------SAADFCQASGWKGG
+KRG90810        KVEKGNDQGGWNAGKASGG---------------------------SAVDFSQASGWKGG
+KRG90770        KVEKGNDQGRWNAGKASGG---------------------------LAADFSQASGWKGG
+BGIOSGA020147-P SQNGSWSRPGGNFEGGRGFGRGRGR---GRGRESGDFGGRNDQ-----------GSWKNS
+Os05t0506200-01 SQNGSWSRPGGNFEGGRGFGRGRGR---GRGRESGDFGGRNDQ-----------GSWKNS
+KEH44273        -TSEPDQSGGWGKGGGSSG--------------------------QSEPNDNQNTAW--G
+Pp3c16_360V3.2  -------------------------------------------------------AW---
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     KQDGDGGGSSW----------GKENDAGGGSS-------WGKQDN---------------
+Bra009470.1-P   KQDSGGGGSSW----------GKDNDAGGGSS-------WGKQNNAGGG---GGSS----
+KRH35991        LSENAQEGSNWG-----IKKFGSGTVSGDSGGN-LG-NDWGPKSNWNSG-----------
+KRG90810        LSEHTQEGSNWG-----DKKFGSCDACGDSSGN-QGSNGWGQKSNWNSG-----------
+KRG90770        LSEHTQEGSNWG-----DKKFGSCDVSGDSSGN-QGSNGWGQKSNWNSG-----------
+BGIOSGA020147-P GTSDSSGRPSWRSDSQVEKEVG---DSGGYRGRGRGRGQYGGQGRGDNGWRNGGQSNSEF
+Os05t0506200-01 GTSDSSGRPSWRSDSQVEKEVG---DSGGYRGRGRGRGQYGGQGRG--------------
+KEH44273        TKSTSTPKPSW----------GAAVNTGTTSEP-DQSGGWG-KVGGSSG-----------
+Pp3c16_360V3.2  -----------------LRDDGSCRVALGPTGD---------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     ------------------------------------------------------------
+Bra009470.1-P   ---------W-------------------SKDNDAGGGSSWGKQNNAG--GGGSSWGQEK
+KRH35991        -----------------------------SRSGNENQNSHWSSGHTEP--RNQDSNLDKK
+KRG90810        -----------------------------SRSGNETQNSHWSSGRNEP--GNQDSNLDKK
+KRG90770        -----------------------------SRSGNENQNSHWSSGRNEP--GNQDSNLDKK
+BGIOSGA020147-P GRSDADAPNWGNKGVSNKGSWDSGDNWNAPKSSDENQTSAWNSSEDKRPSGGQE---QQS
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        -----------------------------QTELNDNQNTAWGTKSSS----------TPA
+Pp3c16_360V3.2  ------------------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     ---------------GVGSSWGKQNDGSGGGSSWGKQNDAGGGSSWGKQDSGGDGSSWGK
+Bra009470.1-P   DAGGGS-SLGKQGSDGGGSSWGKKNDTGGGGSSWGQDNNAGGGSSWGKQASDGGGSSWGK
+KRH35991        NNWISV-NGANLASDPKSSKWNSGSGNSNENSNWG--NNGNNKSSWG-AGNENKNSNWSS
+KRG90810        SNWNSG-NSGNLASDPKSSNWNSGY----ENSNWG--TNVNNKSSWG-TGNENKNSSWSS
+KRG90770        SNWNSG-NSGNLASDPKSSNWNSGSGNSNENSNWG--TNVNNKSSWG-TGNENKNSSWSS
+BGIOSGA020147-P GAWASK-MTSTAGAEDKSDAWGTKA-EGNSGSTGGKWENAS-------SGEEQQSDPW--
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        PAWGATVNTGTTSEPDQSGGWGTKS-TSTPKPSWGAAVNT------GTTSEPDQSSGW--
+Pp3c16_360V3.2  ------------------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     Q-DGGGDSGSAWGKQNNTSGGSSW----------GKQSDAGGGSSWGKQ-DGGGGG----
+Bra009470.1-P   KNDAGGGGGSSWGKDNDAGGGSSW----------GKQGSDGGGSSWGKKNDAGGGG----
+KRH35991        GRNGPEDQESNQGKKSNWNSGDS-----------DNQASDPNNSNWNSNKSSWSAGNENR
+KRG90810        GHSDPGNQDANQGKKSNGNSGNS-----------GNQPSDP-NSNWNSNKSSWSAGNENK
+KRG90770        GHSDPGNQDANQGKKSNWNSGNS-----------GNQPSDP-NSNWNSNKSSWSAGNENK
+BGIOSGA020147-P ------------GSKICSNKGKEQETDPWTSKVTSTADADDNNNVWNTSASDTASGSE--
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        -----GAKSTSDVNNSNWNSGDS-----------NKTSNSGKNSNW--NNSSGGAWNENK
+Pp3c16_360V3.2  --------------------GDTLLV----------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     -SSWGKQ--DG----------GGGSGSAWGKQNETSNGSSWGKQN-DSGGGSSWGKQD--
+Bra009470.1-P   -SSWGKQGSDGGGSSWGKKSDGGGGGSSWGQENNAGGGSSWGKQG-SDGGGSSWGKKNDA
+KRH35991        NSNWSSGDPGNKDSNWGKKSNWNSGSGDANQNTTWGSNSSWSTANASSDAGVNEGSNENS
+KRG90810        KSNWSSGDPGNKDSNWGNKNNCISGSGDANQNTTWRSNSSWNTANASSDDG-NEGSNENS
+KRG90770        KSNWSSGDPGNTDSNWGNKNNCISGSGDANQNTSWRSNSSWNTANASSDDG-NEGSNENS
+BGIOSGA020147-P -SKWGNAGAEEKADAWKSKV-GSENSGGWNQK------SSWGKPS------FSGGEQEPA
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        TSNWS--------------------SGGASEGTNWRS---------------NEGPNETS
+Pp3c16_360V3.2  ------------------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     GGGGGSSW--GKQ------------NDGGG--GSS-----WGKQGD-----------GGS
+Bra009470.1-P   GGGGGSSW--GQQGGGGSAWANKQNNDGGG--GQS-----WSKQDD-----------GGS
+KRH35991        DGVGGGNWRGGYQGRGS--------SDRGGFRGRG-----FRGRGERGGFGGRAERGGGF
+KRG90810        DGVGGGNWRGGYRGRGG--------SDRGGFRGRG-----FRGKGERGGFSGRGEL-GGF
+KRG90770        DGVGGGNWRGGYRGRGG--------SDRGGFRGRG-----FRGRGERGGFGGRGEH-GGF
+BGIOSGA020147-P -------WSNPKNG-----------DDNSGY-GRG-----GFGRGNRG--RGRG---RNF
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        DDGGGG--RGGYRGRGG--------SDSGGYRGRG-----FRGRVER----------GGF
+Pp3c16_360V3.2  --------------------------------GQADMELVLPKKTDKIKIV---------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     KPWNEH-SGG--GRGFGERRGGG---GF-RGGRNQSGR----GGRSFDGGR---------
+Bra009470.1-P   KPWGEQ-SG---GRGFGGRRGGGFRGGF-RGGRNQLGR--DGGGRSFE------------
+KRH35991        GGRWER-GGGFGGRGRSDREGCGGRWGS-EGGRGGRGR-----GRNDQSGGWNNRRDSGE
+KRG90810        GGRGEQ--GGFGGRGRSDGEGFGGRWGS-EGGRGGRGR-----GRNDQSGGWNNRRDSGE
+KRG90770        GGRGER--GGFGGRGRSDREGFGGRWGS-EGGRGGRGR-----GRNDQSGGWNNRRDSGE
+BGIOSGA020147-P GDSGSSWSGGSYRNDESRGERSEDRWNT-RDSDGGRGRGRGHFGRGDRNQG--NNYGSGD
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        GGRGEQ--GGFGGRGRSDGEGFGGRWGSDRGSGGGRGR-----GRNDRPGGWSNSRDSGE
+Pp3c16_360V3.2  -------SG---------------------EHRGCTGK---LMGIDGADGI---------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 -------------------------------------------GKSL-------------
+VIT_13s0019g049 -------------------------------------R----------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     --SSSWKTDNQE-NTWKS-DQSGGSDWKKGWGEDSNNSK-------------PSGSSAGG
+Bra009470.1-P   --SSGWKRDNQENTTWKSNNQSGGSDWKKSWGEDSNTAK-------------PSDSSSAG
+KRH35991        DGPSDWKKGAEN-GGWKNGNGSQ------AWNQDTGDKDRQSWSQGNADKERPSWNQGSG
+KRG90810        DGPSDWKKGADN-GGWKNSNGSQ------AWNQDTGDKDRQSWSQGNADKEHPSWNQGSG
+KRG90770        DGPSDWKKGADN-GGWKNSNGSQ------AWNQDTGDKDRQSWSQGNADKEHPSWNQGSG
+BGIOSGA020147-P NNDRTWGSGRGN----RDQDGCK------NWNQN-DDRR-------------PFGQDRGG
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        DGSSDWKKGSDNVEGWKSNNGSG------SWNQNSSDKK------------------DGG
+Pp3c16_360V3.2  -----------------------------VKLDDTLDIRIL-------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     CAGNWPSWDTNSKKETN----------------------------------------DKP
+Bra009470.1-P   --GNWGSWDANSKKETNAGG-GWG-ANSKNETST---GGD---WGSNSKKETNAVDGDKP
+KRH35991        --SNQ-SWSSASAGANDN----WN--------------------------------NNGS
+KRG90810        --RNQ-SWSSAS-GANDNGSQAWNQGNADKEHPS--------------------------
+KRG90770        --RNQ-SWSSAS-GANDNGSQAWNQGNADKEHPSWNQAGNKQSWSSASGGGNNNWNNNGS
+BGIOSGA020147-P ------DWSQSSD---------WN------------------------------------
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        ------NWTSASGGASGS----WN--------------------------------SDRP
+Pp3c16_360V3.2  ------DMSSLSKIAT--------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     GDDSK----SAWGT-----SNDQVNTDNNNDSWNKKPNNDV-----GTSGEAD----NAW
+Bra009470.1-P   SNENKAA--AAWGTP----ANDQENAGNNNDGWGKKPSDDV-----KTSGAAD----NAW
+KRH35991        TQTAE----ASWKK-----STTTEETNIQDSGWNKGSSSNTTSRGWGQSSAADKGQASSW
+KRG90810        ------------------------------------------------------------
+KRG90770        SQTAE----ASWKK-----S-TTEGTNIQGGGWNKGSSSNTTSKDWGQSSAADKGQASSW
+BGIOSGA020147-P ANKGQ----SSWGAPKPSGGDDQAGKNNGNNPW-------------GAPADSNKGHPRSV
+Os05t0506200-01 ------------------------------------------------------------
+KEH44273        GQVAEAKDGAGWAK-----GTD------SGAGWAK-----------GTDSASDKGQ-SSW
+Pp3c16_360V3.2  ------------------------------------------------------------
+VIT_14s0006g021 ------------------------------------------------------------
+VIT_19s0093g001 ------------------------------------------------------------
+VIT_13s0019g049 ------------------------------------------------------------
+VIT_00s0131g004 ------------------------------------------------------------
+                                                                            
+
+AT5G04290.1     GGKTNAVAPSPSGSAAWGTGDKKTGW------------
+Bra009470.1-P   GGKTNAGASSSSGSA----------W------------
+KRH35991        KESAIDDAAGSWGKK--NDRGDKGGW------------
+KRG90810        --------------------------------------
+KRG90770        KEAA-DGASGSWGKK--NDGGDKGGW------------
+BGIOSGA020147-P VAAAPGTRQMVDGTAAARVGPQAMTYNAIISNNVAMLL
+Os05t0506200-01 --------------------------------------
+KEH44273        NGSAADGAAGSWGKK--NDGGSKGGW------------
+Pp3c16_360V3.2  --------------------------------------
+VIT_14s0006g021 --------------------------------------
+VIT_19s0093g001 --------------------------------------
+VIT_13s0019g049 --------------------------------------
+VIT_00s0131g004 --------------------------------------
+                                                      

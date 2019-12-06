@@ -1,0 +1,37 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.450)
+
+
+AT4G33930.1     MMVLYCGRKLLVVLMVTAFVFSGSAEAWSWSWGSGQSGSNGGWGWRSGNSGGSSGSGSGG
+Bra034601.1-P   -MGLSKARKLLLILVITAYLFSGTAHAWSWSWGSGQSGSNWGWGWGSDD---NSGSGSGG
+Bra034618.1-P   -MGLSKARKLLLVLVITSYVFSGTAHAWSWSWGSGQSGSSWGWGWGSDN---NSGLGSGG
+                 * *  .****::*::*:::***:*.*************. **** *.:   .** ****
+
+AT4G33930.1     SDSNS-GGSSWGWGWSSDGTDTNWGWGSSSGSNHSSGTGSTHNGHSSGSNHSSATGSTHN
+Bra034601.1-P   SNPNSGGGSSWGWGWSSNGTDTNWGWGSSSG---SSGTGSTHK-----------------
+Bra034618.1-P   SNSNSGGGSSWGWGWSSNGTDTNWGWGSSSGSNHSSGTGSTH------------------
+                *:.** ***********:*************   ********                  
+
+AT4G33930.1     GHTSTGSNHSSGNGSRHNGYSSGSNHSSSTGSNHSSSTGSTHNNHSSGSNHSS-ILGSTH
+Bra034601.1-P   -------------------------------SYHNHTTPSTHSNGSGSNKTRG-SIGSSH
+Bra034618.1-P   ---------------------------------NNHS--------SGSNQTRGSSIGSSH
+                                                 :. :        *...:  .  :**:*
+
+AT4G33930.1     KNHSSGSNHSSIVGSTHNNHSSGSNHSSITGSTHNHTAPIPAGRKIAVTVWKNGYGYTEW
+Bra034601.1-P   K---------------------------------NHTAQVSSRRKIEVTVWKNGFDYQEW
+Bra034618.1-P   K---------------------------------NHTAQVSPRRKIEVSVWKNGFDYQEW
+                *                                 **** :.. *** *:*****:.* **
+
+AT4G33930.1     TAKHAPFYVSDVLVFKYNNDDQTQSKTKHRNKKKNDVYLLPDMKSFKRCNVARGKKLVAR
+Bra034601.1-P   ASKHAPFLTNDVLSFK-------------------------------------GKKLVAR
+Bra034618.1-P   ASKHAPFHSNDVLSFKYNGKSQSKTK-KHNN--KNDVYLLPDLKSYKRCDVSRGKKLVAR
+                ::*****  .*** **                                     *******
+
+AT4G33930.1     GGSSSRGFKLLLRKV-QTYYFASGDHNECNHNMKFSVHPIPRPSSH--------------
+Bra034601.1-P   GGSSS-GFKLLLRKTHETYFFASGDHNGCNHNMKFSISPIPRSSSHTKP-----------
+Bra034618.1-P   GGSSS-GFKLLLRKTHQTYFFASGDPNGCNHNMKFSISPIPRSSSHTKPEFHMLSLTLNF
+                ***** ********. :**:***** * ********: ****.***              
+
+AT4G33930.1     --------------------------------------
+Bra034601.1-P   --------------------------------------
+Bra034618.1-P   YFVSLLDSVYFPFSFVSCASSQRWTGYSNFIVFIKLID
+                                                      

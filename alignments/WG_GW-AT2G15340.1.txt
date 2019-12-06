@@ -1,0 +1,8 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.450)
+
+
+AT2G15340.1     MALSGSQKKVFLLVIAIACLSSSLAEAWSWSSSDGNGWGWGSDGSSTSTSGPGSTPGDSN
+                ************************************************************
+
+AT2G15340.1     SGGSNPGGPNSGGFSSPWGSWGWGWGSHGSGSPAPSNALFLLVIIKKKNLSDFLFYYIM
+                ***********************************************************

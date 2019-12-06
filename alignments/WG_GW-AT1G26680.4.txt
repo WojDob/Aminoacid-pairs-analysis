@@ -1,0 +1,128 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.450)
+
+
+AT1G26680.4     -----MADQSLL--------HSPINPHFFQPILTESRTHLNIPVAFFSKHVEGRNNQNKT
+Bra024695.1-P   -----MADDQSL--------HSPITPHFFQPLLPGFHTHLNIPVAFFSRHVQGNNDHIKT
+Bra024697.1-P   MKCSRMAYDQSL--------HSPNNPHFFQPLLPGFHTYLNIPVAFFLKHVQGSNDHIKT
+Bra024696.1-P   -----MAH-QSL--------HSPTNPHFFQPLLPGFHTYLNIPVAFFSKHVEGSNDHIKT
+Bra012445.1-P   -----MVDQSLLPASSSRLPHSP-------PCLVQ-----NIPVAFFSTHIKGRNDHIKI
+                     *.  . *        ***       * *       *******  *::* *:: * 
+
+AT1G26680.4     VTLRSDASDKTWLVKMDGLKLTDGWEDFAFAHDLRTGDIVVFRLEGEMVFHVTALGPSCC
+Bra024695.1-P   AKLRTDASAKTWLVKINGLKLTDGWEDFAVAHDLRIGDIIIFRYEGEMVFHVTAFGPSCC
+Bra024697.1-P   AKLTTDASAKTWLVKVDGVRLTDGWEDFAVGHDLRIGDITIFRHEGEMVFHVTAFGPSCC
+Bra024696.1-P   AKLRTDASAKTWLVEMDGLKLTDGWEDFAVAHDLRIGDIIIFRHEGKMVFHVTAFGPSLC
+Bra012445.1-P   AKLRTDASDKTWKVKMDGSKFTDGWEDFAVAHDLRVGDITVFRHEGEMVFHVTALGPSFC
+                ..* :*** *** *:::* ::********..**** *** :** **:*******:*** *
+
+AT1G26680.4     EIQYHT-SSHNINDDDRNDQINIASRNSSRVKKNPRKKVESSLDHSRFVAKVSAWCLSND
+Bra024695.1-P   DIQYTSESSHNINDDSQDQTNN--------------------------------------
+Bra024697.1-P   DIQYTSESSHNINDDSQDQTNNAV------------------------------------
+Bra024696.1-P   EFQYTSASSHNINDVSDDDHTNK-------------------------------------
+Bra012445.1-P   EIQYT--SSHNINDDTHDQTNNIVTGNSSREK----------------------------
+                ::**   *******   ::  *                                      
+
+AT1G26680.4     RLYIPLSFARLNGLNKINSKKIYLQNEEGRSWKLVLRHDKSGMQTFVQSGWRRFCSENGI
+Bra024695.1-P   ------------------------------------------------------------
+Bra024697.1-P   ------------------------------------------------------------
+Bra024696.1-P   ------------------------------------------------------------
+Bra012445.1-P   ------------------------------------------------------------
+                                                                            
+
+AT1G26680.4     RQGQYTFKLVRKSAPPVIRLCRAKAKPKQRSVAEYSSDHSCFEGSVTPSSLRNDLLYLPR
+Bra024695.1-P   ------------------------------------------------------------
+Bra024697.1-P   ------------------------------------------------------------
+Bra024696.1-P   ------------------------------------------------------------
+Bra012445.1-P   ---------------------RKRVKKNPKPVPQASLHSSCYVGSVSASSLKHNKLYLGR
+                                                                            
+
+AT1G26680.4     SFVNSNRLDKRCSEIVLKNEQGVKWPLVLKRFKSV--TYLPKGWTSFCQVNRIKAGDSFK
+Bra024695.1-P   ------------------------------------------------------------
+Bra024697.1-P   ------------------------------------------------------------
+Bra024696.1-P   ------------------------------------------------------------
+Bra012445.1-P   EFVTSNGLNKGCSEIVLKNEGGGRWTLPLKHYKSINHTYLGPGWTTFCQVNGIKAEDAFM
+                                                                            
+
+AT1G26680.4     FKLVGTWKKPVLSLCPTQSNNH-KTPLECSEGNKSEESEEDCLEVKKKKYWSRCRASVEN
+Bra024695.1-P   ------------------------------------------------------------
+Bra024697.1-P   ------------------------------------------------------------
+Bra024696.1-P   ------------------------------------------------------------
+Bra012445.1-P   FKLVRTGEKPVLCLCPEESSHRDKTPVECLE-----------------------------
+                                                                            
+
+AT1G26680.4     MDDDQTNIGNSSRKKRVSKNP----REKVESSSDHSSFVGSVNPSSLYKDQLYLPRNFVS
+Bra024695.1-P   -------TGNSSGEKR--------------------------------------------
+Bra024697.1-P   -------TGNSSGEKR--------------------------------------------
+Bra024696.1-P   -------TGNSSGEKR--------------------------------------------
+Bra012445.1-P   -DSDDVNPLSSSSKSKESKEESLGDKRASSSYSEDRFLTLTLTQKAVKRYQLTIPVAFFL
+                         .** :.:                                            
+
+AT1G26680.4     SNFLDKRCSEIVLK-NERGEKRTLVLKHFKKDLTFLKKGWTSFCQVNRIKAGDSFKFKLV
+Bra024695.1-P   ------------------------------------------------------------
+Bra024697.1-P   ------------------------------------------------------------
+Bra024696.1-P   ------------------------------------------------------------
+Bra012445.1-P   KHVQGRNDHIKIAKLTTAASDKTWTV---KMDGFKLTHGWEDFAVAHDLRVGDMIVFRHE
+                                                                            
+
+AT1G26680.4     GTWNKPVLSLCPTETNYHKTPLACSEGNKSEESEEEGTEDKNTSQDCLEVKKRKYWSTCR
+Bra024695.1-P   ------------------------------------------------------------
+Bra024697.1-P   ------------------------------------------------------------
+Bra024696.1-P   ------------------------------------------------------------
+Bra012445.1-P   G------------ELAFHVTIMGPS---------------------CCEIQ---------
+                                                                            
+
+AT1G26680.4     ASAENIDDDQTNIGNSSKEKRVKKNPVKKAESSSDHSSFVANVTASSLNYDRLYLPLSFV
+Bra024695.1-P   -------------------KRVKKTPRTKEESSSDHSHFMAHVSPSSLRFDRLYVPISFA
+Bra024697.1-P   -------------------KRVKKNPRTKEDSSSDHSQFVAHVSPSSLSSDRLYIPTGFA
+Bra024696.1-P   -------------------KRVKKNPRTKEESSSDHSHFVAHVTPSSLSCDRLYVPKGFA
+Bra012445.1-P   -YTHNINHNHTN--------------NIIESSSSDNSLFVAKVSASNLRLDRLYLPMSFA
+                                              .****:* *:*:*:.*.*  ****:* .*.
+
+AT1G26680.4     SSNGLDKMNGKE-IVLLNEEGLSWKFNLKYNQAGKHTYVRPGWSRFCDANGMSQGQQFTF
+Bra024695.1-P   RSNGLDNMSGKE-IVLLNQEGRSWNLNITYTKASVQTLVGPGWRRFCAENGMNKGHHYTF
+Bra024697.1-P   RSNGLDNMSGKEIIVLLNEEGRSWSLDMTCNKVGMQTFVRPGWRRFCAENGMKKGHHYTF
+Bra024696.1-P   MSNGLDNMSGKE-IVLLNEEGKSWNLNITYNESGMHTFVRPGWRRFCAENGISQGHHCTF
+Bra012445.1-P   RTNGLDKMSGEQ-IILLNGEGRSWSLKLKHDKSDMHTFVRPGWRRFCAENGMSHG-HYTL
+                 :****:*.*:: *:*** ** **.:.:.  : . :* * *** ***  **:.:* : *:
+
+AT1G26680.4     KLVQKHGPPVMYLSLSEH-RPK--S-ESSSHRSYFVGSVTASSIKKDKLYLWKSFVSSNG
+Bra024695.1-P   KLVGKSAPPVIRLSLSE-----PAP-ESSLHHSNYVGSVSSNSLRKDKLYIQRKFVNANG
+Bra024697.1-P   KLVRRSAPLIIRLSHAEH-EPEPAT-ESSLNHSYYVGSVSPNSLSTDKL---RHFVTANG
+Bra024696.1-P   ELVRKSAPPVLRLSRAEH-DPKPAP-ESSLHHSYYVGSASSNSLRIDKLYLQMKFVTANG
+Bra012445.1-P   KLIRNSGPPVIKLCGQVHNRPKPVPVVSSLHHSCFVGSVTSNSLKTDKLYLGKKFVIENG
+                :*: . .* :: *.          .  ** ::* :***.:..*:  ***     **  **
+
+AT1G26680.4     LDKGCKKIILKNKWGREWKLVLKHYKSNCFTIIKRGWTSFCQGNGLKAGDSFKFKLVGTG
+Bra024695.1-P   L-KGLSEIVLKNEWGGSWNLGLRYYESLDHTYLGPGWKTFCQVNRIKTGDSFMFKVVETG
+Bra024697.1-P   LEKGLSEITLKNEWGGSWILGFRHYEPQNHTYLGPGWKTFCQVNGIKAEDSFMFKLVETG
+Bra024696.1-P   MKKGFSEIILKNEWGGRWSVRLRQYASSNRTYLGPGWKTFCQVNGIKAGDPFMFKLVETG
+Bra012445.1-P   LDRGCSEMVLKNEWGGRWSLALRFYESAYQTYLGPGWRTFCQVNEIKVGDSFKFKLVGTG
+                : :* .:: ***:**  * : :: * .   * :  ** :*** * :*. *.* **:* **
+
+AT1G26680.4     EKPVLSLCPAESSHEKIPLECPEGIDDVNSLSSNPSSGDDS-SRSEESEEENMEDKN-IS
+Bra024695.1-P   DKPVLLLC--TTNRGKTPLDCPEDSGDINSLSSDTGS-----RESQESEEESLEDDDSSS
+Bra024697.1-P   DKPVLLLC--TSNRGKTPLECSEDRDDVNSLSSDTSSEDDSKEESQESDKESIEDAD-RS
+Bra024696.1-P   DKPVLLLC--SSNRGETPLECS---DDVNSLSSDTSSG----EESQESEEESLEDDS-RS
+Bra012445.1-P   DNPVLLLC--TR---KMPLECPGE-----NSGSDTSSGDDS-SEPQESEEESLGDKN-IS
+                ::*** **       : **:*.       . .*:..*      ..:**::*.: * .  *
+
+AT1G26680.4     QDCLETKKRKYC----SSSSYSQNRFVTLTLTRSAFQTYKLFLPRGFTQVNGINKPRKIT
+Bra024695.1-P   EESFEMVKRENSSRCRASSSYSQDRFVKLTLTPRALKTYKLMLPLDFTRVNGINKPGKRM
+Bra024697.1-P   QQCIVMEKENNSLRCICSSPYSKHRFVRLSFTQSALKTSVLYLPLAFTRMNCINKPIKIM
+Bra024696.1-P   KDCVEMEKRKSSLRCKCSSSYSKHRFVRLTLTQNALKTSVQHLPLGFTRVNGINRSRKIM
+Bra012445.1-P   QECVKMEKNEEF----VEMQNTKRRSL---------------------------------
+                ::..   *.:       .   :: * :                                 
+
+AT1G26680.4     LLGQDGVKK-VVDLYQESSSRIMRFGKGWREFFDAQGVKIDDSFVLELIW-EKEASPVLK
+Bra024695.1-P   ----------------------------------------------------ERVL----
+Bra024697.1-P   LLGKDGVKKQVVDLLKNKSTGAMRFGKGWREFCDAHGVKVGESFQLELFREDEEAIPVLK
+Bra024696.1-P   LLGKDGVKKWVVDLLKNKSTGAMRIRKGWRELCDAHGVKVGESFLLELIR-DEEAIPVLK
+Bra012445.1-P   ------------------------------------------------------------
+                                                                            
+
+AT1G26680.4     FCTKVPK
+Bra024695.1-P   -------
+Bra024697.1-P   FCTTT--
+Bra024696.1-P   FCTKL--
+Bra012445.1-P   -------
+                       
