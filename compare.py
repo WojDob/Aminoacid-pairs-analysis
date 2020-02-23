@@ -53,95 +53,99 @@ for comb in combinations:
 
 
 
-#     menu=''
-#     for protein in best['proteins']:
-#         menu = menu + '<a href="{0}_{1}-{2}.html">{2}</a>\n'.format(comb,comb[::-1],protein['id'])
-#         protein['table'] ='''length  {0}
-# count   {1}
-# ratio   {2:.2f}
-# zscore  {3:.2f}'''.format(protein['length'],protein['count'],protein['ratio'],protein['zscore'])
+    menu=''
+    for protein in best['proteins']:
+        menu = menu + '<a href="{0}_{1}-{2}.html" target="_blank">{2}</a>\n'.format(comb,comb[::-1],protein['id'])
+        protein['table'] ='''length  {0}
+count   {1}
+ratio   {2:.2f}
+zscore  {3:.2f}'''.format(protein['length'],protein['count'],protein['ratio'],protein['zscore'])
 
-#     for protein in orthologs:
-#         #write protein and its orthologs to file
-#         f = open("temp.txt","w")
-#         for rec in SeqIO.parse("data/Arabidopsis_filtered.fa", "fasta"):
-#             if rec.id == protein:
-#                 SeqIO.write(rec, f, "fasta")
-#         for ortholog in orthologs[protein]:
-#             SeqIO.write(ortholog, f, "fasta")
-#         f.close()
+    for protein in orthologs:
+        #write protein and its orthologs to file
+        f = open("temp.txt","w")
+        for rec in SeqIO.parse("data/Arabidopsis_filtered.fa", "fasta"):
+            if rec.id == protein:
+                SeqIO.write(rec, f, "fasta")
+                proteinDescription = rec.description
+        for ortholog in orthologs[protein]:
+            SeqIO.write(ortholog, f, "fasta")
+        f.close()
 
-#         #run mafft and get the output
-#         mafftOutput = subprocess.check_output("mafft --auto --clustalout temp.txt", shell=True)
+        #run mafft and get the output
+        mafftOutput = subprocess.check_output("mafft --auto --clustalout temp.txt", shell=True)
 
-#         #calculate where the motifs are in the output
-#         positions = list()
-#         for i in range(len(mafftOutput)-1):
-#             if mafftOutput[i]+mafftOutput[i+1] in [comb,comb[::-1]] :
-#                 positions.append(i)
-#                 positions.append(i+1)
+        #calculate where the motifs are in the output
+        positions = list()
+        for i in range(len(mafftOutput)-1):
+            if mafftOutput[i]+mafftOutput[i+1] in [comb,comb[::-1]] :
+                positions.append(i)
+                positions.append(i+1)
 
-#         #replace motif letters with html
-#         mafftOutputList= list(mafftOutput)
-#         for i in range(len( mafftOutputList)):
-#             if i in positions:
-#                 mafftOutputList[i] = '<span class="highlight">{}</span>'.format(mafftOutputList[i])
+        #replace motif letters with html
+        mafftOutputList= list(mafftOutput)
+        for i in range(len( mafftOutputList)):
+            if i in positions:
+                mafftOutputList[i] = '<span class="highlight">{}</span>'.format(mafftOutputList[i])
 
-#         highlightedAlignment = ''.join(mafftOutputList)
+        highlightedAlignment = ''.join(mafftOutputList)
 
-#         for bestProtein in best['proteins']:
-#             if protein == bestProtein['id']:
-#                 table  = bestProtein['table']
+        linkToIndex = "<a href='{}_{}-index.html' target='_blank'>index</a>\n".format(comb,comb[::-1])
 
-#         htmlFile=open('alignments/{}_{}-{}.html'.format(comb,comb[::-1],protein),'w')
-#         content = '''
-# <!doctype html>
-# <html>
-#     <head>
-#         <title>{}-{}</title>
-#         <meta charset="utf-8">
-#         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-#         <link rel="stylesheet" href="styles.css">
-#     </head>
-#     <body>
-#         <h1>{}</h1>
-#         <pre>
-# {}
+        for bestProtein in best['proteins']:
+            if protein == bestProtein['id']:
+                table  = bestProtein['table']
 
-
-
-
-
-
-# {}
-
-# {}
-#         </pre>
-#     </body>
-# </html>
-#             '''.format(comb,comb[::-1],protein,table,highlightedAlignment,menu)
-#         htmlFile.write(content)
-#         htmlFile.close()
+        htmlFile=open('alignments/{}_{}-{}.html'.format(comb,comb[::-1],protein),'w')
+        content = '''
+<!doctype html>
+<html>
+    <head>
+        <title>{}-{}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>{}</h1>
+        <h3>{}</h3>
+        <pre>
+{}
 
 
 
-#     indexFile = open('alignments/{}_{}-index.html'.format(comb,comb[::-1]),"w")
-#     content = '''
-# <!doctype html>
-# <html>
-#     <head>
-#         <title>{0}-{1}</title>
-#         <meta charset="utf-8">
-#         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-#         <link rel="stylesheet" href="styles.css">
-#     </head>
-#     <body>
-#         <h1>{0}-{1}</h1>
-#         <pre>
-# {2}
-#         </pre>
-#     </body>
-# </html>
-#         '''.format(comb,comb[::-1],menu)
-#     indexFile.write(content)
-#     indexFile.close()
+
+
+
+{}
+
+{}
+        </pre>
+    </body>
+</html>
+            '''.format(comb,comb[::-1],protein,proteinDescription,table,highlightedAlignment,linkToIndex)
+        htmlFile.write(content)
+        htmlFile.close()
+
+
+
+    indexFile = open('alignments/{}_{}-index.html'.format(comb,comb[::-1]),"w")
+    content = '''
+<!doctype html>
+<html>
+    <head>
+        <title>{0}-{1}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>{0}-{1}</h1>
+        <pre>
+{2}
+        </pre>
+    </body>
+</html>
+        '''.format(comb,comb[::-1],menu)
+    indexFile.write(content)
+    indexFile.close()
