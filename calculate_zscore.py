@@ -1,6 +1,6 @@
 from Bio import SeqIO
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import sys
 import json
 import utils
@@ -13,7 +13,7 @@ def pairFrequency(comb):
 def getDataList(key):
     return [protein[key] for protein in zScoreOutput['proteins']]
 
-combinations = ['WA','WR','WN','WD','WB','WC','WE','WQ','WZ','WG','WH','WI','WL','WK','WM','WF','WP','WS','WT','WY','WV']
+combinations = ['WA','WC','WD','WE','WF','WG','WH','WI','WK','WL','WM','WN','WP','WQ','WR','WS','WT','WV','WW','WY']
 
 for comb in combinations:
 
@@ -26,7 +26,7 @@ for comb in combinations:
     print("Calculating {}".format(zScoreOutput['motif']))
     countList = list()
     #for every protein record in data file
-    for rec in SeqIO.parse(sys.argv[1], "fasta"):
+    for rec in SeqIO.parse("data/Arabidopsis_filtered.fa", "fasta"):
 
         protein = {
             'id':rec.id,
