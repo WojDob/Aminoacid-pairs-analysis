@@ -23,10 +23,10 @@ for key, value in fileLocations.items():
         extractedOrthologs[key] =[[row[1],row[2]] for row in reader]
      
 
-combinations = ['WG']
+combinations = ['WA','WC','WD','WE','WF','WG','WH','WI','WK','WL','WM','WN','WP','WQ','WR','WS','WT','WV','WW','WY']
 
 for comb in combinations:
-    print(comb)
+    print("Calculating {}".format(comb))
     with open("best_zscores/{}-{}_bz.json".format(comb,comb[::-1]), 'r') as f:
         best = json.load(f)
 
