@@ -1,216 +1,216 @@
 {
-    "averageOccurence": 0.43093962646590417, 
+    "averageOccurence": 0.21546981323295208, 
     "proteins": [
         {
-            "count": 36, 
+            "count": 18, 
             "length": 1041, 
             "zscore": 33.342436527193954, 
             "ratio": 0.0, 
             "id": "AT1G39070.1"
         }, 
         {
-            "count": 28, 
+            "count": 14, 
             "length": 1172, 
             "zscore": 25.84323667720228, 
             "ratio": 0.0, 
             "id": "AT2G19110.1"
         }, 
         {
-            "count": 20, 
+            "count": 10, 
             "length": 251, 
             "zscore": 18.34403682721061, 
             "ratio": 0.0, 
             "id": "AT5G20635.1"
         }, 
         {
-            "count": 16, 
+            "count": 8, 
             "length": 280, 
             "zscore": 14.594436902214774, 
             "ratio": 0.0, 
             "id": "AT2G41260.2"
         }, 
         {
-            "count": 14, 
+            "count": 7, 
             "length": 422, 
             "zscore": 12.719636939716855, 
             "ratio": 0.0, 
             "id": "AT1G32190.1"
         }, 
         {
-            "count": 14, 
+            "count": 7, 
             "length": 951, 
             "zscore": 12.719636939716855, 
             "ratio": 0.0, 
             "id": "AT4G30110.1"
         }, 
         {
-            "count": 14, 
+            "count": 7, 
             "length": 400, 
             "zscore": 12.719636939716855, 
             "ratio": 0.0, 
             "id": "AT1G69280.3"
         }, 
         {
-            "count": 12, 
+            "count": 6, 
             "length": 1254, 
             "zscore": 10.844836977218938, 
             "ratio": 0.0, 
             "id": "AT3G18290.1"
         }, 
         {
-            "count": 12, 
+            "count": 6, 
             "length": 754, 
             "zscore": 10.844836977218938, 
             "ratio": 0.0, 
             "id": "AT1G19110.1"
         }, 
         {
-            "count": 10, 
+            "count": 5, 
             "length": 416, 
             "zscore": 8.970037014721019, 
             "ratio": 0.0, 
             "id": "AT2G17780.1"
         }, 
         {
-            "count": 10, 
+            "count": 5, 
             "length": 421, 
             "zscore": 8.970037014721019, 
             "ratio": 0.0, 
             "id": "AT4G35920.1"
         }, 
         {
-            "count": 10, 
+            "count": 5, 
             "length": 398, 
             "zscore": 8.970037014721019, 
             "ratio": 0.0, 
             "id": "AT2G26130.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1379, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT3G11960.3"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 462, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT1G47128.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 977, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT5G48320.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1283, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT2G22010.2"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 546, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT4G11390.2"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1015, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT5G03360.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1670, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT3G12980.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 437, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT1G09850.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 463, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT5G43060.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1132, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT5G35930.4"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 543, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT5G39471.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 703, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT4G10560.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 591, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT3G45840.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 160, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT1G68610.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 756, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT1G72500.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1039, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT1G56145.2"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 1311, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT3G18730.1"
         }, 
         {
-            "count": 8, 
+            "count": 4, 
             "length": 255, 
             "zscore": 7.0952370522231005, 
             "ratio": 0.0, 
             "id": "AT4G23470.1"
         }
     ], 
-    "standardDeviation": 1.0667804779211056
+    "standardDeviation": 0.5333902389605528
 }
