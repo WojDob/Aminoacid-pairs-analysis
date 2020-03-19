@@ -16,7 +16,6 @@ def getDataList(key):
 #combinations = ['WA','WC','WD','WE','WF','WG','WH','WI','WK','WL','WM','WN','WP','WQ','WR','WS','WT','WV','WW','WY']
 
 for comb in utils.combinations:
-
     zScoreOutput = {
         'motif': [comb,comb[::-1]],
         'averageOccurence' :-1,
@@ -47,7 +46,10 @@ for comb in utils.combinations:
         protein['ratio'] = percentage / pairFrequency(comb)
 
         #count instances of motif
-        recCombCount = rec.seq.count(comb) + rec.seq.count(comb[::-1])
+        if comb != comb[::-1]:
+            recCombCount = rec.seq.count(comb) + rec.seq.count(comb[::-1])
+        else:
+            recCombCount = rec.seq.count(comb)
         protein['count'] = recCombCount
         countList.append(recCombCount)
 
@@ -64,9 +66,9 @@ for comb in utils.combinations:
     #sort by zscore
     zScoreOutput['proteins'] = sorted(zScoreOutput['proteins'], key=lambda k: k['zscore'], reverse = True)
 
-    #save to file
-    with open('json_files/{}-{}.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
-        json.dump(zScoreOutput, f ,indent = 4)
+    # #save to file
+    # with open('json_files/{}-{}.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
+    #     json.dump(zScoreOutput, f ,indent = 4)
 
     #get thirty proteins with the biggest zscore and length of more than 100
     bestThirty = list()
