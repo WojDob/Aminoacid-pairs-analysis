@@ -11,14 +11,16 @@ def countMotif(seq,comb):
 	else:
 		return seq.count(comb)
 
+def pvalue(sum,numOfProteins,numOfCycles):
+	return float(decimal.Decimal(sum) / decimal.Decimal(numOfProteins * numOfCycles))
 
 
-numberOfCycles = 100
+
+numberOfCycles = 1000
 numberOfProteinsInProteome = 27628
 proteome = "data/Arabidopsis_filtered.fa"
-# proteome = "data/testShort.fa"
-#combinations = ['WG','WW','AA','IW', 'IY','GG']
-combinations = ['WG']
+combinations = ['WG','WW','AA','IW', 'IY','GG']
+
 
 allAminoacids = ""
 proteinLengths = [0]
@@ -28,6 +30,7 @@ for comb in combinations:
 	motifCounts[comb] = {}
 
 #put all aminoacids from proteome into one string ang get the lengths of each protein 
+print("Getting all aminoacids into a list")
 for rec in SeqIO.parse(proteome, "fasta"):
 	allAminoacids += rec.seq
 	proteinLengths.append(proteinLengths[-1] + len(rec.seq))
@@ -39,10 +42,10 @@ for i in range(numberOfCycles):
 	print("Shuffling nr  " + str(i))
 	random.shuffle(allAminoacidsList)
 
+
 	fakeProteome = list()
 	for i in range(len(proteinLengths)-1):
 		fakeProteome.append(''.join(allAminoacidsList[proteinLengths[i] : proteinLengths[i+1]]))
-	#print(fakeProteome)
 
 	for comb in combinations:
 		for sequence in fakeProteome:
@@ -54,17 +57,20 @@ for i in range(numberOfCycles):
 
 print(json.dumps(motifCounts, indent = 4))
 
+print("Calculating results")
 best = {}
 for comb in combinations:
 	print(comb)
+
 	with open("best_zscores/{}-{}_bz.json".format(comb,comb[::-1]), 'r') as f:
 		best[comb] = json.load(f)
+
 	for protein in best[comb]["proteins"]:
 		sumOfProteinsWithEqualOrBiggerCount = 0
 		for key in motifCounts[comb]:
 			if key >= protein["count"]:
 				sumOfProteinsWithEqualOrBiggerCount+=motifCounts[comb][key]
-				
-		print(str(sumOfProteinsWithEqualOrBiggerCount) + " " + str(protein["count"])+ " " + protein["id"])
-		protein["pvalue"] = float(decimal.Decimal(sumOfProteinsWithEqualOrBiggerCount) / decimal.Decimal(numberOfProteinsInProteome * numberOfCycles))
-print(json.dumps(best['WG'],indent = 4))
+		# protein["pvalue"] = float(decimal.Decimal(sumOfProteinsWithEqualOrBiggerCount) / decimal.Decimal(numberOfProteinsInProteome * numberOfCycles))
+		protein["pvalue"] = pvalue(sumOfProteinsWithEqualOrBiggerCount,numberOfProteinsInProteome,numberOfCycles)
+	with open('fullresults/{}-{}.json'.format(comb,comb[::-1]),'w') as f:
+	        json.dump(best[comb], f ,indent = 4)
