@@ -19,7 +19,7 @@ def pvalue(sum,numOfProteins,numOfCycles):
 numberOfCycles = 1000
 numberOfProteinsInProteome = 27628
 proteome = "data/Arabidopsis_filtered.fa"
-combinations = ['WG','WW','AA','IW', 'IY','GG']
+combinations = utils.combinations
 
 
 allAminoacids = ""
@@ -70,7 +70,7 @@ for comb in combinations:
 		for key in motifCounts[comb]:
 			if key >= protein["count"]:
 				sumOfProteinsWithEqualOrBiggerCount+=motifCounts[comb][key]
-		# protein["pvalue"] = float(decimal.Decimal(sumOfProteinsWithEqualOrBiggerCount) / decimal.Decimal(numberOfProteinsInProteome * numberOfCycles))
 		protein["pvalue"] = pvalue(sumOfProteinsWithEqualOrBiggerCount,numberOfProteinsInProteome,numberOfCycles)
+		
 	with open('fullresults/{}-{}.json'.format(comb,comb[::-1]),'w') as f:
 	        json.dump(best[comb], f ,indent = 4)

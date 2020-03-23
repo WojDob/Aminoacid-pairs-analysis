@@ -1,0 +1,246 @@
+{
+    "averageOccurence": 1.3819313739684378, 
+    "proteins": [
+        {
+            "count": 237, 
+            "zscore": 61.04082353847902, 
+            "ratio": 0.0, 
+            "id": "AT3G22142.1", 
+            "length": 1480, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 149, 
+            "zscore": 38.24294346625145, 
+            "ratio": 0.0, 
+            "id": "AT3G28550.1", 
+            "length": 1024, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 142, 
+            "zscore": 36.429475733233346, 
+            "ratio": 0.0, 
+            "id": "AT3G54580.1", 
+            "length": 957, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 136, 
+            "zscore": 34.87507481921783, 
+            "ratio": 0.0, 
+            "id": "AT1G23720.2", 
+            "length": 919, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 126, 
+            "zscore": 32.28440662919196, 
+            "ratio": 0.0, 
+            "id": "AT2G27380.1", 
+            "length": 761, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 122, 
+            "zscore": 31.24813935318162, 
+            "ratio": 0.0, 
+            "id": "AT4G22485.1", 
+            "length": 656, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 118, 
+            "zscore": 30.211872077171275, 
+            "ratio": 0.0, 
+            "id": "AT5G07740.2", 
+            "length": 1683, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 108, 
+            "zscore": 27.621203887145416, 
+            "ratio": 0.0, 
+            "id": "AT3G54590.3", 
+            "length": 743, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 101, 
+            "zscore": 25.807736154127312, 
+            "ratio": 0.0, 
+            "id": "AT4G22505.1", 
+            "length": 530, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 92, 
+            "zscore": 23.47613478310404, 
+            "ratio": 0.0, 
+            "id": "AT4G08410.1", 
+            "length": 707, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 90, 
+            "zscore": 22.958001145098866, 
+            "ratio": 0.0, 
+            "id": "AT4G13340.1", 
+            "length": 760, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 90, 
+            "zscore": 22.958001145098866, 
+            "ratio": 0.0, 
+            "id": "AT5G06640.1", 
+            "length": 689, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 87, 
+            "zscore": 22.180800688091107, 
+            "ratio": 0.0, 
+            "id": "AT1G26240.1", 
+            "length": 478, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 77, 
+            "zscore": 19.59013249806525, 
+            "ratio": 0.0, 
+            "id": "AT2G24980.3", 
+            "length": 565, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 72, 
+            "zscore": 18.29479840305232, 
+            "ratio": 0.0, 
+            "id": "AT1G26250.1", 
+            "length": 443, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 71, 
+            "zscore": 18.03573158404973, 
+            "ratio": 0.0, 
+            "id": "AT1G21310.1", 
+            "length": 431, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 68, 
+            "zscore": 17.258531127041973, 
+            "ratio": 0.0, 
+            "id": "AT4G18670.1", 
+            "length": 857, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 68, 
+            "zscore": 17.258531127041973, 
+            "ratio": 0.0, 
+            "id": "AT4G08400.1", 
+            "length": 513, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 68, 
+            "zscore": 17.258531127041973, 
+            "ratio": 0.0, 
+            "id": "AT1G62440.1", 
+            "length": 786, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 67, 
+            "zscore": 16.99946430803939, 
+            "ratio": 0.0, 
+            "id": "AT1G12040.1", 
+            "length": 744, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 67, 
+            "zscore": 16.99946430803939, 
+            "ratio": 0.0, 
+            "id": "AT2G15880.1", 
+            "length": 727, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 67, 
+            "zscore": 16.99946430803939, 
+            "ratio": 0.0, 
+            "id": "AT3G19020.1", 
+            "length": 956, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 64, 
+            "zscore": 16.22226385103163, 
+            "ratio": 0.0, 
+            "id": "AT1G31810.1", 
+            "length": 1230, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 59, 
+            "zscore": 14.926929756018701, 
+            "ratio": 0.0, 
+            "id": "AT5G06630.1", 
+            "length": 440, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 54, 
+            "zscore": 13.63159566100577, 
+            "ratio": 0.0, 
+            "id": "AT4G08380.1", 
+            "length": 437, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 52, 
+            "zscore": 13.113462023000599, 
+            "ratio": 0.0, 
+            "id": "AT4G13390.1", 
+            "length": 429, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 52, 
+            "zscore": 13.113462023000599, 
+            "ratio": 0.0, 
+            "id": "AT1G61080.5", 
+            "length": 944, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 45, 
+            "zscore": 11.299994289982497, 
+            "ratio": 0.0, 
+            "id": "AT5G07570.1", 
+            "length": 1504, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 44, 
+            "zscore": 11.040927470979911, 
+            "ratio": 0.0, 
+            "id": "AT2G43150.1", 
+            "length": 212, 
+            "pvalue": 0.0
+        }, 
+        {
+            "count": 44, 
+            "zscore": 11.040927470979911, 
+            "ratio": 0.0, 
+            "id": "AT1G68690.1", 
+            "length": 708, 
+            "pvalue": 0.0
+        }
+    ], 
+    "standardDeviation": 3.8600080236057472
+}
