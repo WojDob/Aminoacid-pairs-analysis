@@ -29,7 +29,6 @@ motifCounts = {}
 for comb in combinations:
 	motifCounts[comb] = {}
 
-#put all aminoacids from proteome into one string ang get the lengths of each protein 
 print("Getting all aminoacids into a list")
 for rec in SeqIO.parse(proteome, "fasta"):
 	allAminoacids += rec.seq
@@ -56,13 +55,15 @@ for i in range(numberOfCycles):
 				motifCounts[comb][count] = 1
 
 print(json.dumps(motifCounts, indent = 4))
+with open('fakeMotifCounts.json','w') as f:
+	json.dump(motifCounts,f ,indent =4)
 
 print("Calculating results")
 best = {}
 for comb in combinations:
 	print(comb)
 
-	with open("best_zscores/{}-{}_bz.json".format(comb,comb[::-1]), 'r') as f:
+	with open("json_files/{}-{}.json".format(comb,comb[::-1]), 'r') as f:
 		best[comb] = json.load(f)
 
 	for protein in best[comb]["proteins"]:
