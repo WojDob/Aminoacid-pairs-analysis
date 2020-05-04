@@ -6,7 +6,7 @@ import json
 
 class Command(BaseCommand):
 	args = 'idontknow'
-	help = 'sorry no help here'
+	help = 'yes please'
 
 	def _create_organisms(self):
 		athaliana = Organism(name="Arabidopsis thaliana")
@@ -31,7 +31,7 @@ class Command(BaseCommand):
 			protein.save()
 
 	def _create_results(self):
-		for comb in combinations:
+		for comb in combinations2:
 			with open("fullresults/{}-{}.json".format(comb,comb[::-1]), 'r') as f:
 				jsonFile = json.load(f)
 
@@ -52,7 +52,7 @@ class Command(BaseCommand):
 
 
 
-combinations2 = ['AA']
+combinations2 = ['GW']
 
 combinations = ['AA', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AK', 'AL',
 'AM', 'AN', 'AP', 'AQ', 'AR', 'AS', 'AT', 'AV', 'AW', 'AY', 'CC', 'CD', 'CE',
