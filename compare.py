@@ -23,7 +23,7 @@ for key, value in fileLocations.items():
         extractedOrthologs[key] =[[row[1],row[2]] for row in reader]
      
 
-combinations = ['WA','WC','WD','WE','WF','WG','WH','WI','WK','WL','WM','WN','WP','WQ','WR','WS','WT','WV','WW','WY']
+combinations = ['VY','GI']
 
 for comb in combinations:
     print("Calculating {}".format(comb))

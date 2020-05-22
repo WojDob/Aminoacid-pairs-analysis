@@ -69,7 +69,7 @@ for comb in combinations:
 	for protein in best[comb]["proteins"]:
 		sumOfProteinsWithEqualOrBiggerCount = 0
 		for key in motifCounts[comb]:
-			if key >= protein["count"]:
+			if int(key) >= protein["count"]:
 				sumOfProteinsWithEqualOrBiggerCount+=motifCounts[comb][key]
 		protein["pvalue"] = pvalue(sumOfProteinsWithEqualOrBiggerCount,numberOfProteinsInProteome,numberOfCycles)
 		

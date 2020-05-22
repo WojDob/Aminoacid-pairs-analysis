@@ -13,79 +13,79 @@ def pairFrequency(comb):
 def getDataList(key):
     return [protein[key] for protein in zScoreOutput['proteins']]
 
-#combinations = ['WA','WC','WD','WE','WF','WG','WH','WI','WK','WL','WM','WN','WP','WQ','WR','WS','WT','WV','WW','WY']
 
 for comb in utils.combinations:
-    zScoreOutput = {
-        'motif': [comb,comb[::-1]],
-        'averageOccurence' :-1,
-        'standardDeviation' :-1,
-        'proteins':[]
-    }
-    print("Calculating {}".format(zScoreOutput['motif']))
-    countList = list()
-    #for every protein record in data file
-    for rec in SeqIO.parse("data/Arabidopsis_filtered.fa", "fasta"):
-
-        protein = {
-            'id':rec.id,
-            'length': len(rec.seq),
-            'count':-1,
-            'ratio':-1,
-            'zscore':-1,
+    if comb == comb[::-1]:
+        zScoreOutput = {
+            'motif': [comb,comb[::-1]],
+            'averageOccurence' :-1,
+            'standardDeviation' :-1,
+            'proteins':[]
         }
+        print("Calculating {}".format(zScoreOutput['motif']))
+        countList = list()
+        #for every protein record in data file
+        for rec in SeqIO.parse("data/Arabidopsis_filtered.fa", "fasta"):
 
-        #calculate ratio of expected occurence and actual percentage of
-        #aminoacids included in motif
-        positions = list()
-        for i in range(len(rec.seq)-1):
-            if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
-                positions.append(i)
-                positions.append(i+1)
-        percentage = len(set(positions))/len(rec.seq) *100
-        protein['ratio'] = percentage / pairFrequency(comb)
+            protein = {
+                'id':rec.id,
+                'length': len(rec.seq),
+                'count':-1,
+                'ratio':-1,
+                'zscore':-1,
+            }
 
-        #count instances of motif
-        if comb != comb[::-1]:
-            recCombCount = rec.seq.count(comb) + rec.seq.count(comb[::-1])
-        else:
-            recCombCount = rec.seq.count(comb)
-        protein['count'] = recCombCount
-        countList.append(recCombCount)
+            #calculate ratio of expected occurence and actual percentage of
+            #aminoacids included in motif
+            positions = list()
+            for i in range(len(rec.seq)-1):
+                if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
+                    positions.append(i)
+                    positions.append(i+1)
+            percentage = len(set(positions))/len(rec.seq) *100
+            protein['ratio'] = percentage / pairFrequency(comb)
 
-        #add the protein to the list
-        zScoreOutput['proteins'].append(protein)
+            #count instances of motif
+            if comb != comb[::-1]:
+                recCombCount = rec.seq.count(comb) + rec.seq.count(comb[::-1])
+            else:
+                recCombCount = rec.seq.count(comb)
+            protein['count'] = recCombCount
+            countList.append(recCombCount)
 
-    zScoreOutput["averageOccurence"] = np.mean(countList)
-    zScoreOutput["standardDeviation"] = np.std(countList)
+            #add the protein to the list
+            zScoreOutput['proteins'].append(protein)
 
-    #calculate zscore of each protein
-    for rec in zScoreOutput['proteins']:
-        rec['zscore'] = (rec['count'] - zScoreOutput['averageOccurence'])/zScoreOutput["standardDeviation"]
+        zScoreOutput["averageOccurence"] = np.mean(countList)
+        zScoreOutput["standardDeviation"] = np.std(countList)
 
-    #sort by zscore
-    zScoreOutput['proteins'] = sorted(zScoreOutput['proteins'], key=lambda k: k['zscore'], reverse = True)
+        #calculate zscore of each protein
+        for rec in zScoreOutput['proteins']:
+            rec['zscore'] = (rec['count'] - zScoreOutput['averageOccurence'])/zScoreOutput["standardDeviation"]
 
-    # #save to file
-    # with open('json_files/{}-{}.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
-    #     json.dump(zScoreOutput, f ,indent = 4)
+        #sort by zscore
+        zScoreOutput['proteins'] = sorted(zScoreOutput['proteins'], key=lambda k: k['zscore'], reverse = True)
 
-    #get thirty proteins with the biggest zscore and length of more than 100
-    bestThirty = list()
-    for protein in zScoreOutput['proteins']:
-        if protein['length'] >= 100:
-            bestThirty.append(protein)
-        if len(bestThirty)==30:
-            break
+        #save to file
+        # with open('json_files/{}-{}.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
+        #     json.dump(zScoreOutput, f ,indent = 4)
 
-    result = {
-        "averageOccurence" : zScoreOutput["averageOccurence"],
-        "standardDeviation" : zScoreOutput["standardDeviation"],
-        "proteins" : bestThirty
-    }
-    #save best thirty to file
-    with open('best_zscores/{}-{}_bz.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
-        json.dump(result, f ,indent = 4)
+    # #get thirty proteins with the biggest zscore and length of more than 100
+    # bestThirty = list()
+    # for protein in zScoreOutput['proteins']:
+    #     if protein['length'] >= 100:
+    #         bestThirty.append(protein)
+    #     if len(bestThirty)==30:
+    #         break
+
+    # result = {
+    #     "averageOccurence" : zScoreOutput["averageOccurence"],
+    #     "standardDeviation" : zScoreOutput["standardDeviation"],
+    #     "proteins" : bestThirty
+    # }
+    # #save best thirty to file
+    # with open('best_zscores/{}-{}_bz.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
+    #     json.dump(result, f ,indent = 4)
 
 
     # zScoresList = getDataList('zscore')
