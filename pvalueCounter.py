@@ -1,23 +1,37 @@
 import json
 import utils
+import matplotlib.pyplot as plt
 
 
-combinations = ['AC']
-pvalueCounts ={
-    "0.01":0,
-    "0.001":0,
-    "0.0001":0,
-    "0.00001":0,
-    "0.000001":0,
-    "0.0" : 0,
+def plot_pvalue_of_proteins(boundary):
+    pvalueCounts = {}
+    for comb in utils.combinations:
 
-}
-for comb in utils.combinations:
-    with open("fullresults/{}-{}.json".format(comb,comb[::-1]), 'r') as f:
-        resultPage = json.load(f)
-    for protein in resultPage["proteins"]:
-        for key in pvalueCounts:
-            if protein["pvalue"] <= float(key):
-                pvalueCounts[key]+=1
+        with open("full_fixed_results/{}-{}.json".format(comb,comb[::-1]), 'r') as f:
+            resultPage = json.load(f)
 
-print(pvalueCounts)
+        for protein in resultPage["proteins"]:
+            if protein["pvalue"] <= boundary:
+                if comb in pvalueCounts:
+                    pvalueCounts[comb]+=1
+                else:
+                    pvalueCounts[comb]=1
+    print(sum(pvalueCounts.values()))
+    print(len(pvalueCounts))
+
+    print(pvalueCounts['PP'])
+    sump = 0
+    for key in pvalueCounts:
+        if 'P' in key:
+            print("{}  {} ".format(key,pvalueCounts[key]))
+            sump+= pvalueCounts[key]
+    print(sump)
+
+    plt.bar(range(len(pvalueCounts)), list(pvalueCounts.values()), align='center')
+    plt.xticks(range(len(pvalueCounts)), list(pvalueCounts.keys()), fontsize=7)
+    plt.xlabel('motif')
+    plt.ylabel('Liczba bialek z p-value rownym lub mniejszym niz {}'.format(str(boundary)))
+    plt.show() 
+
+
+plot_pvalue_of_proteins(0.00001)
