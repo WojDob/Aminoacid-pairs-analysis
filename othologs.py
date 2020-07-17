@@ -4,6 +4,13 @@ import os
 import json
 import csv
 
+
+arabidopsisProtein = 'AT5G04290.1'
+motif = 'GW'
+
+
+
+
 fileLocations = {
     "B.rapa":["data/hom_Brapa.txt","data/Brassica_rapa.Brapa_1.0.pep.all.fa"],
     "G.max":["data/hom_Gmax.txt","data/Glycine_max.Glycine_max_v2.1.pep.all.fa"],
@@ -37,6 +44,7 @@ def findOrthologIdentifier(extractedOrthologs,identifier):
 
 
 def findProteinAndCountPvalue(fileLocations,identifiers,comb):
+    print("id   motif    count    pvalue\n")
     for identifier in identifiers:
         for key, value in fileLocations.items():
             for rec in SeqIO.parse(value[1], "fasta"):
@@ -47,7 +55,7 @@ def findProteinAndCountPvalue(fileLocations,identifiers,comb):
                     else:
                         recCombCount = rec.seq.count(comb)
 
-                    print("\nid:{} motif:{} count:{} pvalue:{}".format(
+                    print("{} {} {} {}".format(
                         rec.id,
                         comb,
                         recCombCount,
@@ -65,9 +73,6 @@ def calculatePvalue(count,comb):
             sumOfProteinsWithEqualOrBiggerCount+=motifCounts[comb][key]
     return sumOfProteinsWithEqualOrBiggerCount
 
-
-arabidopsisProtein = 'AT3G28550.1'
-motif = 'PS'
 
 
 findProteinAndCountPvalue(fileLocations,findOrthologIdentifier(extractOrthologs(fileLocations),arabidopsisProtein),motif)
