@@ -13,9 +13,8 @@ def pairFrequency(comb):
 def getDataList(key):
     return [protein[key] for protein in zScoreOutput['proteins']]
 
-combinations = ["IK"]
 
-for comb in combinations:
+for comb in utils.combinations:
     zScoreOutput = {
         'motif': [comb,comb[::-1]],
         'averageOccurence' :-1,
@@ -42,7 +41,10 @@ for comb in combinations:
             if rec.seq[i]+rec.seq[i+1] in [comb,comb[::-1]] :
                 positions.append(i)
                 positions.append(i+1)
-        percentage = len(set(positions))/len(rec.seq) *100
+        numberOfAminoacids = len(set(positions))
+        lengthOfProtein = len(rec.seq)
+        percentage = (float(numberOfAminoacids)/lengthOfProtein) *100
+
         protein['ratio'] = percentage / pairFrequency(comb)
 
         #count instances of motif
@@ -67,27 +69,25 @@ for comb in combinations:
     zScoreOutput['proteins'] = sorted(zScoreOutput['proteins'], key=lambda k: k['zscore'], reverse = True)
 
     #save to file
-    # with open('json_files/{}-{}.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
-    #     json.dump(zScoreOutput, f ,indent = 4)
+    with open('json_files/{}-{}.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
+        json.dump(zScoreOutput, f ,indent = 4)
 
     #get thirty proteins with the biggest zscore and length of more than 100
-    bestThirty = list()
-    for protein in zScoreOutput['proteins']:
-        if protein['length'] >= 100:
-            bestThirty.append(protein)
-        if len(bestThirty)==30:
-            break
+    # bestThirty = list()
+    # for protein in zScoreOutput['proteins']:
+    #     if protein['length'] >= 100:
+    #         bestThirty.append(protein)
+    #     if len(bestThirty)==30:
+    #         break
 
-    result = {
-        "averageOccurence" : zScoreOutput["averageOccurence"],
-        "standardDeviation" : zScoreOutput["standardDeviation"],
-        "proteins" : bestThirty
-    }
+    # result = {
+    #     "averageOccurence" : zScoreOutput["averageOccurence"],
+    #     "standardDeviation" : zScoreOutput["standardDeviation"],
+    #     "proteins" : bestThirty
+    # }
     #save best thirty to file
     # with open('best_zscores/{}-{}_bz.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
     #     json.dump(result, f ,indent = 4)
-    with open('ik.json'.format(zScoreOutput['motif'][0],zScoreOutput['motif'][1]),'w') as f:
-        json.dump(result, f ,indent = 4)
 
     # zScoresList = getDataList('zscore')
     # ratioList = getDataList('ratio')
